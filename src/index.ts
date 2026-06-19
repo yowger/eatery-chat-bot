@@ -70,27 +70,36 @@ const intents: Intent[] = [
 
 const manager = new NlpManager({ languages: ["en"] })
 
-for (const intent of intents) {
-    for (const example of intent.examples) {
-        manager.addDocument("en", example, intent.intent)
-    }
+async function main() {
+    for (const intent of intents) {
+        for (const example of intent.examples) {
+            manager.addDocument("en", example, intent.intent)
+        }
 
-    for (const response of intent.responses) {
-        manager.addAnswer("en", intent.intent, response)
-    }
-}
-
-manager.train().then(async () => {
-    manager.save()
-
-    const response = await manager.process("en", "bye")
-
-    if (response.score < 0.6) {
-        return {
-            intent: "unknown",
-            answer: "Sorry, I didn't understand that.",
+        for (const response of intent.responses) {
+            manager.addAnswer("en", intent.intent, response)
         }
     }
 
-    console.log(response)
-})
+    await manager.process("en", "bye")
+    manager.save()
+
+    const response = await manager.process("en", "bye")
+    console.log("🚀 ~ main ~ response:", response)
+
+    if (response.score < 0.6) {
+        console.log({
+            intent: "unknown",
+            answer: "Sorry, I didn't understand that.",
+        })
+        return
+    }
+
+    // console.log({
+    //     intent: response.intent,
+    //     answer: response.answers,
+    //     score: response.score,
+    // })
+}
+
+main()
