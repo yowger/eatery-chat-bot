@@ -1,6 +1,6 @@
 import { Intent } from "../types/intents.js"
 
-export const greetingIntents: Intent[] = [
+const intents: Intent[] = [
     {
         intent: "greeting",
         examples: [
@@ -33,3 +33,5 @@ export const greetingIntents: Intent[] = [
         ],
     },
 ]
+
+export default intents

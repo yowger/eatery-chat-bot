@@ -1,6 +1,6 @@
 import { Intent } from "../types/intents.js"
 
-export const greetingIntents: Intent[] = [
+const intents: Intent[] = [
     {
         intent: "ask_hours",
         examples: [
@@ -12,3 +12,5 @@ export const greetingIntents: Intent[] = [
         responses: ["We are open from 8AM to 5PM."],
     },
 ]
+
+export default intents

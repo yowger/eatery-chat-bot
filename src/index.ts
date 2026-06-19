@@ -1,34 +1,15 @@
-import { NlpManager } from "node-nlp"
-
-import { intents } from "./intents/index.js"
-
-const manager = new NlpManager({ languages: ["en"] })
+import { loadIntents } from "./loaders/intentLoader.js"
+import { ChatbotService } from "./services/chatbotService.js"
 
 async function main() {
-    for (const intent of intents) {
-        for (const example of intent.examples) {
-            manager.addDocument("en", example, intent.intent)
-        }
+    const intents = await loadIntents()
+    const chatbot = new ChatbotService(intents)
 
-        for (const response of intent.responses) {
-            manager.addAnswer("en", intent.intent, response)
-        }
-    }
+    await chatbot.train()
 
-    await manager.process("en", "bye")
-    manager.save()
+    const result = await chatbot.processMessage("bye")
 
-    const response = await manager.process("en", "bye")
-
-    if (response.score < 0.6) {
-        console.log({
-            intent: "unknown",
-            answer: "Sorry, I didn't understand that.",
-        })
-        return
-    }
-
-    console.log("🚀 ~ main ~ response:", response)
+    console.log(result)
 }
 
 main()

@@ -33,9 +33,279 @@
           },
           "useStemDict": true
         },
-        "stemDict": {},
-        "intentDict": {},
+        "stemDict": {
+          "are,hour,what,your": {
+            "intent": "ask_hours",
+            "domain": "default"
+          },
+          "are,open,when,you": {
+            "intent": "ask_hours",
+            "domain": "default"
+          },
+          "open,time": {
+            "intent": "ask_hours",
+            "domain": "default"
+          },
+          "close,time": {
+            "intent": "ask_hours",
+            "domain": "default"
+          },
+          "bye": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "goodby": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "see,you": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "later,see,you": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "later,talk,to,you": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "catch,later,you": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "a,day,have,nice": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "a,day,good,have": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "care,take": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "farewel": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "go,have,i,to": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "go,gotta": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "bye,thank": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "bye,thank,you": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "later": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "out,peac": {
+            "intent": "goodbye",
+            "domain": "default"
+          },
+          "hello": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hi": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hey": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hello,there": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hi,there": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "hey,there": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "good,morn": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "afternoon,good": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "even,good": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "howdi": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "yo": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "is,up,what": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "up,what": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "sup": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "greet": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "meet,nice,to,you": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "day,good": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "chatbot,hello": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "chatbot,hi": {
+            "intent": "greeting",
+            "domain": "default"
+          },
+          "chatbot,hey": {
+            "intent": "greeting",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "ask_hours": "default",
+          "goodbye": "default",
+          "greeting": "default"
+        },
         "sentences": [
+          {
+            "domain": "default",
+            "utterance": "what are your hours",
+            "intent": "ask_hours"
+          },
+          {
+            "domain": "default",
+            "utterance": "when are you open",
+            "intent": "ask_hours"
+          },
+          {
+            "domain": "default",
+            "utterance": "opening time",
+            "intent": "ask_hours"
+          },
+          {
+            "domain": "default",
+            "utterance": "closing time",
+            "intent": "ask_hours"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "goodbye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "see you",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "see you later",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to you later",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "catch you later",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "have a nice day",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "have a good day",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "take care",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "farewell",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "i have to go",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "gotta go",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "thanks bye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "thank you bye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "bye bye",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "later",
+            "intent": "goodbye"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace out",
+            "intent": "goodbye"
+          },
           {
             "domain": "default",
             "utterance": "hello",
@@ -135,91 +405,6 @@
             "domain": "default",
             "utterance": "hey chatbot",
             "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
           }
         ],
         "domains": {
@@ -234,6 +419,473 @@
               "spellCheckDistance": 1,
               "filterZeros": true,
               "log": true
+            },
+            "features": {
+              "what": 1,
+              "are": 1,
+              "your": 1,
+              "hour": 1,
+              "when": 1,
+              "you": 1,
+              "open": 1,
+              "time": 1,
+              "close": 1,
+              "bye": 1,
+              "goodby": 1,
+              "see": 1,
+              "later": 1,
+              "talk": 1,
+              "to": 1,
+              "catch": 1,
+              "have": 1,
+              "a": 1,
+              "nice": 1,
+              "day": 1,
+              "good": 1,
+              "take": 1,
+              "care": 1,
+              "farewel": 1,
+              "i": 1,
+              "go": 1,
+              "gotta": 1,
+              "thank": 1,
+              "peac": 1,
+              "out": 1,
+              "hello": 1,
+              "hi": 1,
+              "hey": 1,
+              "there": 1,
+              "morn": 1,
+              "afternoon": 1,
+              "even": 1,
+              "howdi": 1,
+              "yo": 1,
+              "is": 1,
+              "up": 1,
+              "sup": 1,
+              "greet": 1,
+              "meet": 1,
+              "chatbot": 1
+            },
+            "intents": {
+              "ask_hours": 1,
+              "goodbye": 1,
+              "greeting": 1
+            },
+            "intentFeatures": {
+              "ask_hours": {
+                "what": 1,
+                "are": 1,
+                "your": 1,
+                "hour": 1,
+                "when": 1,
+                "you": 1,
+                "open": 1,
+                "time": 1,
+                "close": 1
+              },
+              "goodbye": {
+                "bye": 1,
+                "goodby": 1,
+                "see": 1,
+                "you": 1,
+                "later": 1,
+                "talk": 1,
+                "to": 1,
+                "catch": 1,
+                "have": 1,
+                "a": 1,
+                "nice": 1,
+                "day": 1,
+                "good": 1,
+                "take": 1,
+                "care": 1,
+                "farewel": 1,
+                "i": 1,
+                "go": 1,
+                "gotta": 1,
+                "thank": 1,
+                "peac": 1,
+                "out": 1
+              },
+              "greeting": {
+                "hello": 1,
+                "hi": 1,
+                "hey": 1,
+                "there": 1,
+                "good": 1,
+                "morn": 1,
+                "afternoon": 1,
+                "even": 1,
+                "howdi": 1,
+                "yo": 1,
+                "what": 1,
+                "is": 1,
+                "up": 1,
+                "sup": 1,
+                "greet": 1,
+                "nice": 1,
+                "to": 1,
+                "meet": 1,
+                "you": 1,
+                "day": 1,
+                "chatbot": 1
+              }
+            },
+            "featuresToIntent": {
+              "what": [
+                "ask_hours",
+                "greeting"
+              ],
+              "are": [
+                "ask_hours"
+              ],
+              "your": [
+                "ask_hours"
+              ],
+              "hour": [
+                "ask_hours"
+              ],
+              "when": [
+                "ask_hours"
+              ],
+              "you": [
+                "ask_hours",
+                "goodbye",
+                "greeting"
+              ],
+              "open": [
+                "ask_hours"
+              ],
+              "time": [
+                "ask_hours"
+              ],
+              "close": [
+                "ask_hours"
+              ],
+              "bye": [
+                "goodbye"
+              ],
+              "goodby": [
+                "goodbye"
+              ],
+              "see": [
+                "goodbye"
+              ],
+              "later": [
+                "goodbye"
+              ],
+              "talk": [
+                "goodbye"
+              ],
+              "to": [
+                "goodbye",
+                "greeting"
+              ],
+              "catch": [
+                "goodbye"
+              ],
+              "have": [
+                "goodbye"
+              ],
+              "a": [
+                "goodbye"
+              ],
+              "nice": [
+                "goodbye",
+                "greeting"
+              ],
+              "day": [
+                "goodbye",
+                "greeting"
+              ],
+              "good": [
+                "goodbye",
+                "greeting"
+              ],
+              "take": [
+                "goodbye"
+              ],
+              "care": [
+                "goodbye"
+              ],
+              "farewel": [
+                "goodbye"
+              ],
+              "i": [
+                "goodbye"
+              ],
+              "go": [
+                "goodbye"
+              ],
+              "gotta": [
+                "goodbye"
+              ],
+              "thank": [
+                "goodbye"
+              ],
+              "peac": [
+                "goodbye"
+              ],
+              "out": [
+                "goodbye"
+              ],
+              "hello": [
+                "greeting"
+              ],
+              "hi": [
+                "greeting"
+              ],
+              "hey": [
+                "greeting"
+              ],
+              "there": [
+                "greeting"
+              ],
+              "morn": [
+                "greeting"
+              ],
+              "afternoon": [
+                "greeting"
+              ],
+              "even": [
+                "greeting"
+              ],
+              "howdi": [
+                "greeting"
+              ],
+              "yo": [
+                "greeting"
+              ],
+              "is": [
+                "greeting"
+              ],
+              "up": [
+                "greeting"
+              ],
+              "sup": [
+                "greeting"
+              ],
+              "greet": [
+                "greeting"
+              ],
+              "meet": [
+                "greeting"
+              ],
+              "chatbot": [
+                "greeting"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "en",
+                "tag": "nlu-en",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "what",
+                "are",
+                "your",
+                "hour",
+                "when",
+                "you",
+                "open",
+                "time",
+                "close",
+                "bye",
+                "goodby",
+                "see",
+                "later",
+                "talk",
+                "to",
+                "catch",
+                "have",
+                "a",
+                "nice",
+                "day",
+                "good",
+                "take",
+                "care",
+                "farewel",
+                "i",
+                "go",
+                "gotta",
+                "thank",
+                "peac",
+                "out",
+                "hello",
+                "hi",
+                "hey",
+                "there",
+                "morn",
+                "afternoon",
+                "even",
+                "howdi",
+                "yo",
+                "is",
+                "up",
+                "sup",
+                "greet",
+                "meet",
+                "chatbot"
+              ],
+              "intents": [
+                "ask_hours",
+                "goodbye",
+                "greeting"
+              ],
+              "perceptrons": [
+                [
+                  1.3680853843688965,
+                  5.759237766265869,
+                  3.30293607711792,
+                  3.30293607711792,
+                  2.4563143253326416,
+                  0.12113534659147263,
+                  5.396508693695068,
+                  8.336691856384277,
+                  5.396501064300537,
+                  -1.0749335289001465,
+                  -0.6818675994873047,
+                  -1.0857017040252686,
+                  -1.2272694110870361,
+                  -0.28110623359680176,
+                  -0.6241644024848938,
+                  -0.36967772245407104,
+                  -0.484089195728302,
+                  -0.3428838849067688,
+                  -0.3522719740867615,
+                  -0.35342249274253845,
+                  -0.7149866819381714,
+                  -0.4409273862838745,
+                  -0.4409273862838745,
+                  -0.6215165853500366,
+                  -0.10507826507091522,
+                  -0.49900442361831665,
+                  -0.3666944205760956,
+                  -0.43176305294036865,
+                  -0.4008663296699524,
+                  -0.4008663296699524,
+                  -0.6660645008087158,
+                  -0.650181233882904,
+                  -0.6337538361549377,
+                  -0.4798172116279602,
+                  -0.19331596791744232,
+                  -0.17337152361869812,
+                  -0.15454813838005066,
+                  -0.5671772956848145,
+                  -0.5617845058441162,
+                  -0.6889188885688782,
+                  -1.9345979690551758,
+                  -0.5525195598602295,
+                  -0.5525195598602295,
+                  -0.13213542103767395,
+                  -0.19960734248161316,
+                  0.5525180701113832
+                ],
+                [
+                  -4.794969081878662,
+                  -2.826890707015991,
+                  -0.664661169052124,
+                  -0.664661169052124,
+                  -2.1614179611206055,
+                  -0.23575538396835327,
+                  -3.708528518676758,
+                  -5.229613304138184,
+                  -3.682263135910034,
+                  5.394920349121094,
+                  5.439573764801025,
+                  3.7550716400146484,
+                  3.554779291152954,
+                  3.529996633529663,
+                  -1.4979314804077148,
+                  2.086451768875122,
+                  6.358881950378418,
+                  7.822317600250244,
+                  -6.431427001953125,
+                  -2.3388874530792236,
+                  -6.578819751739502,
+                  2.695466995239258,
+                  2.695466995239258,
+                  5.447268962860107,
+                  -1.464057445526123,
+                  1.9621472358703613,
+                  3.427734613418579,
+                  0.0728326216340065,
+                  2.6717731952667236,
+                  2.6717731952667236,
+                  -8.886613845825195,
+                  -8.883352279663086,
+                  -8.880087852478027,
+                  -2.4750986099243164,
+                  -2.3709466457366943,
+                  -2.3694684505462646,
+                  -2.3670997619628906,
+                  -8.873560905456543,
+                  -8.870285987854004,
+                  -0.8679758310317993,
+                  -4.129015922546387,
+                  -8.865508079528809,
+                  -8.862225532531738,
+                  -3.5295464992523193,
+                  -1.0801589488983154,
+                  8.959048697839371
+                ],
+                [
+                  2.2357962131500244,
+                  -3.7772786617279053,
+                  -2.7575418949127197,
+                  -2.7575418949127197,
+                  -0.8208796977996826,
+                  -2.946274518966675,
+                  -2.909944534301758,
+                  -4.5035319328308105,
+                  -2.5530357360839844,
+                  -7.056565284729004,
+                  -7.056565761566162,
+                  -4.110291957855225,
+                  -7.056565284729004,
+                  -1.4370027780532837,
+                  2.2198052406311035,
+                  -0.6969690918922424,
+                  -7.573640823364258,
+                  -6.712066173553467,
+                  3.407784938812256,
+                  1.2178165912628174,
+                  6.011326313018799,
+                  -3.5282835960388184,
+                  -3.5282835960388184,
+                  -7.056565761566162,
+                  -0.8161688446998596,
+                  -3.959070920944214,
+                  -3.0974960327148438,
+                  -1.1824554204940796,
+                  -3.5282833576202393,
+                  -3.5282833576202393,
+                  7.229140758514404,
+                  7.229140758514404,
+                  7.229140281677246,
+                  0.0000057834736253425945,
+                  1.2178200483322144,
+                  1.217820167541504,
+                  1.217820167541504,
+                  7.229148864746094,
+                  7.229148864746094,
+                  0.000004423282462084899,
+                  4.993346214294434,
+                  7.229147911071777,
+                  7.229147911071777,
+                  4.5478291511535645,
+                  0.000005755655820394168,
+                  7.056567944397144
+                ]
+              ]
             }
           }
         }
@@ -241,6 +893,90 @@
     },
     "intentDomains": {},
     "extraSentences": [
+      [
+        "en",
+        "what are your hours"
+      ],
+      [
+        "en",
+        "when are you open"
+      ],
+      [
+        "en",
+        "opening time"
+      ],
+      [
+        "en",
+        "closing time"
+      ],
+      [
+        "en",
+        "bye"
+      ],
+      [
+        "en",
+        "goodbye"
+      ],
+      [
+        "en",
+        "see you"
+      ],
+      [
+        "en",
+        "see you later"
+      ],
+      [
+        "en",
+        "talk to you later"
+      ],
+      [
+        "en",
+        "catch you later"
+      ],
+      [
+        "en",
+        "have a nice day"
+      ],
+      [
+        "en",
+        "have a good day"
+      ],
+      [
+        "en",
+        "take care"
+      ],
+      [
+        "en",
+        "farewell"
+      ],
+      [
+        "en",
+        "i have to go"
+      ],
+      [
+        "en",
+        "gotta go"
+      ],
+      [
+        "en",
+        "thanks bye"
+      ],
+      [
+        "en",
+        "thank you bye"
+      ],
+      [
+        "en",
+        "bye bye"
+      ],
+      [
+        "en",
+        "later"
+      ],
+      [
+        "en",
+        "peace out"
+      ],
       [
         "en",
         "hello"
@@ -320,74 +1056,6 @@
       [
         "en",
         "hey chatbot"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
       ]
     ]
   },
@@ -405,18 +1073,9 @@
     },
     "responses": {
       "en": {
-        "greeting": [
+        "ask_hours": [
           {
-            "answer": "Hello! How can I assist you today?"
-          },
-          {
-            "answer": "Hi! How can I help you today?"
-          },
-          {
-            "answer": "Hey! What can I do for you today?"
-          },
-          {
-            "answer": "Hello there! How may I help you?"
+            "answer": "We are open from 8AM to 5PM."
           }
         ],
         "goodbye": [
@@ -431,6 +1090,20 @@
           },
           {
             "answer": "Thanks for chatting. Goodbye!"
+          }
+        ],
+        "greeting": [
+          {
+            "answer": "Hello! How can I assist you today?"
+          },
+          {
+            "answer": "Hi! How can I help you today?"
+          },
+          {
+            "answer": "Hey! What can I do for you today?"
+          },
+          {
+            "answer": "Hello there! How may I help you?"
           }
         ]
       }
