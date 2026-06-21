@@ -7,7 +7,7 @@ import { type Intent } from "../types/intents"
 export async function loadIntents(): Promise<Intent[]> {
     const intents: Intent[] = []
 
-    const folderPath = path.resolve("./src/intents")
+    const folderPath = path.resolve("./src/modules/chatbot/intents")
     const files = fs.readdirSync(folderPath)
 
     for (const file of files) {
