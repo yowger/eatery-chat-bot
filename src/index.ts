@@ -1,11 +1,10 @@
-import { loadIntents } from "./loaders/intentLoader.js"
-import { ChatbotService } from "./services/chatbotService.js"
+import { FileIntentProvider } from "./providers/FileIntentProvider"
+import { ChatbotService } from "./services/chatbotService"
 
 async function main() {
-    const intents = await loadIntents()
-    const chatbot = new ChatbotService(intents)
+    const provider = new FileIntentProvider()
 
-    await chatbot.train()
+    const chatbot = await ChatbotService.create(provider)
 
     const result = await chatbot.processMessage("bye")
 
