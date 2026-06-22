@@ -31,3 +31,5 @@ export const isDynamicIntent = (intent: Intent): intent is DynamicIntent => {
 export const isIntent = (intent: Intent): intent is Intent => {
     return isStaticIntent(intent) || isDynamicIntent(intent)
 }
+
+export type IntentHandler = (message: string) => string

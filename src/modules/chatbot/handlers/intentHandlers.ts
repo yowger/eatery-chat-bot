@@ -1,8 +1,9 @@
 import { businessConfig } from "../config/BusinessConfig"
+import { IntentHandler } from "../types/intents"
 import { isOpenNow } from "../utils/businessUtil"
 
-export const intentHandlers: Record<string, () => string> = {
-    ask_open_today: () => {
+export const intentHandlers: Record<string, IntentHandler> = {
+    ask_open_today: (_message) => {
         const status = isOpenNow(businessConfig.hours)
 
         if (!status.open) {
@@ -11,6 +12,12 @@ export const intentHandlers: Record<string, () => string> = {
 
         return `Yes, we are open today until ${status.todayHours}.`
     },
-    ask_address: () => businessConfig.address,
-    ask_phone: () => businessConfig.phone,
+
+    ask_address: (_message) => {
+        return businessConfig.address
+    },
+
+    ask_phone: (_message) => {
+        return businessConfig.phone
+    },
 }

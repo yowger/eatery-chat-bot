@@ -253,1206 +253,6 @@
           },
           {
             "domain": "default",
-            "utterance": "are you open on sunday",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "closing time",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "can I come now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "what are your hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "business hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "when do you open today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good evening",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "howdy",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what's up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "whats up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "sup",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "greetings",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "nice to meet you",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good day",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "can I come now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open on sunday",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "closing time",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "can I come now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "what are your hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "business hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "when do you open today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good evening",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "howdy",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what's up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "whats up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "sup",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "greetings",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "nice to meet you",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good day",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what are your hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "business hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "when do you open today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open on sunday",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "closing time",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "can I come now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "what are your hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "business hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "when do you open today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good evening",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "howdy",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what's up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "whats up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "sup",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "greetings",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "nice to meet you",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good day",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open on sunday",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "closing time",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "can I come now",
-            "intent": "ask_open_now"
-          },
-          {
-            "domain": "default",
-            "utterance": "what are your hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "business hours today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "when do you open today",
-            "intent": "get_today_hours"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "goodbye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "see you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "talk to you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "catch you later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a nice day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "have a good day",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "take care",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "farewell",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "i have to go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "gotta go",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thanks bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "thank you bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "bye bye",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "later",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "peace out",
-            "intent": "goodbye"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good evening",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "howdy",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what's up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "whats up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "sup",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "greetings",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "nice to meet you",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good day",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey there",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good evening",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "howdy",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "what's up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "whats up",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "sup",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "greetings",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "nice to meet you",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "good day",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hello chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hi chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "hey chatbot",
-            "intent": "greeting"
-          },
-          {
-            "domain": "default",
-            "utterance": "are you open on sunday",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "is the store open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "do you open today",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
-            "utterance": "closing time",
-            "intent": "ask_open_today"
-          },
-          {
-            "domain": "default",
             "utterance": "are you open now",
             "intent": "ask_open_now"
           },
@@ -2103,294 +903,294 @@
               ],
               "perceptrons": [
                 [
-                  0.3621007800102234,
-                  1.1008180379867554,
-                  4.9427666664123535,
-                  3.827777862548828,
-                  3.827777862548828,
-                  0.8853539228439331,
-                  1.1135343313217163,
-                  1.1135343313217163,
-                  6.006051540374756,
-                  2.0115997791290283,
-                  7.030620098114014,
-                  7.030620098114014,
-                  -8.767568588256836,
-                  -0.01905926875770092,
-                  -0.07310638576745987,
-                  -0.01905926875770092,
-                  -1.6739767789840698,
-                  -1.4457496404647827,
-                  -3.84306263923645,
-                  -2.3874993324279785,
-                  -14.285704612731934,
-                  -0.8137699365615845,
-                  -0.3903687298297882,
-                  -1.3252909183502197,
-                  -0.8824372887611389,
-                  -0.1836872696876526,
-                  -0.5792498588562012,
-                  -0.44285398721694946,
-                  -0.1970536708831787,
-                  -0.1360195428133011,
-                  -0.41915425658226013,
-                  -0.14833436906337738,
-                  -0.35422128438949585,
-                  -0.22978445887565613,
-                  -0.22978445887565613,
-                  -0.3550385534763336,
-                  -0.2498341202735901,
-                  -0.19540023803710938,
-                  -0.5115211606025696,
-                  -0.2113277167081833,
-                  -0.2113277167081833,
-                  -0.3614391088485718,
-                  -0.3566315770149231,
-                  -0.3514493703842163,
-                  -0.21142931282520294,
-                  -0.10179644823074341,
-                  -0.09275577962398529,
-                  -0.08433236926794052,
-                  -0.3255656361579895,
-                  -0.3220004737377167,
-                  -0.21632371842861176,
-                  -0.3172141909599304,
-                  -0.3134279251098633,
-                  -0.3268871605396271,
-                  -0.11348960548639297,
-                  0.22447331946964777
+                  0.41779381036758423,
+                  1.0866543054580688,
+                  4.940532684326172,
+                  3.8015120029449463,
+                  3.8015120029449463,
+                  0.8820564150810242,
+                  1.1083396673202515,
+                  1.1083396673202515,
+                  6.008764266967773,
+                  2.0110764503479004,
+                  7.023952007293701,
+                  7.023952007293701,
+                  -8.729910850524902,
+                  -0.018277134746313095,
+                  -0.07247714698314667,
+                  -0.018277134746313095,
+                  -1.6291204690933228,
+                  -1.4028375148773193,
+                  -3.82492733001709,
+                  -2.421600341796875,
+                  -14.28418254852295,
+                  -0.8108859658241272,
+                  -0.3921886086463928,
+                  -1.3243824243545532,
+                  -0.8774644732475281,
+                  -0.18391282856464386,
+                  -0.5764389038085938,
+                  -0.4469429552555084,
+                  -0.17723889648914337,
+                  -0.12947219610214233,
+                  -0.41570180654525757,
+                  -0.1342315524816513,
+                  -0.34323611855506897,
+                  -0.23072731494903564,
+                  -0.23072731494903564,
+                  -0.35728761553764343,
+                  -0.24571093916893005,
+                  -0.19977746903896332,
+                  -0.5135151743888855,
+                  -0.21413235366344452,
+                  -0.21413235366344452,
+                  -0.36105474829673767,
+                  -0.3556056022644043,
+                  -0.3508802354335785,
+                  -0.20138077437877655,
+                  -0.10099126398563385,
+                  -0.093827024102211,
+                  -0.08693478256464005,
+                  -0.3284686803817749,
+                  -0.32475364208221436,
+                  -0.21205653250217438,
+                  -0.31991368532180786,
+                  -0.3168033957481384,
+                  -0.3322654366493225,
+                  -0.10983452945947647,
+                  0.2377613895595584
                 ],
                 [
-                  0.9241936206817627,
-                  0.7559233903884888,
-                  2.651416540145874,
-                  -2.061274290084839,
-                  -2.061274290084839,
-                  0.3695789873600006,
-                  0.6552696228027344,
-                  0.6552696228027344,
-                  -4.13556432723999,
-                  0.9241946339607239,
-                  -0.028410686179995537,
-                  -0.028410686179995537,
-                  10.163163185119629,
-                  1.5824576616287231,
-                  1.1666196584701538,
-                  1.5824576616287231,
-                  -0.417566180229187,
-                  -0.10918266326189041,
-                  -0.21677300333976746,
+                  0.9266830086708069,
+                  0.7433934807777405,
+                  2.6696081161499023,
+                  -2.0600388050079346,
+                  -2.0600388050079346,
+                  0.36048802733421326,
+                  0.6547951102256775,
+                  0.6547951102256775,
+                  -4.140427112579346,
+                  0.9266850352287292,
+                  0,
+                  0,
+                  10.165633201599121,
+                  1.576770544052124,
+                  1.1861454248428345,
+                  1.576770544052124,
+                  -0.44097697734832764,
+                  -0.11602634936571121,
+                  -0.22361668944358826,
                   -0.0599590428173542,
-                  -0.9533520340919495,
-                  -0.4750039279460907,
-                  -0.2039671540260315,
-                  -0.608132541179657,
-                  -0.645237386226654,
-                  -0.13437704741954803,
-                  -0.6490305662155151,
-                  -0.17472144961357117,
-                  -0.5667868256568909,
-                  -0.15955750644207,
-                  -0.1511748880147934,
-                  -0.17164917290210724,
-                  -0.24332056939601898,
-                  -0.11730247735977173,
-                  -0.11730247735977173,
-                  -0.1520240753889084,
-                  -0.47902026772499084,
-                  -0.06298555433750153,
-                  -0.23486030101776123,
-                  -0.08701050281524658,
-                  -0.08701050281524658,
-                  -0.183576762676239,
-                  -0.17263536155223846,
-                  -0.16864101588726044,
-                  -0.16090865433216095,
-                  -0.05061055347323418,
-                  -0.0446123369038105,
-                  -0.03907964751124382,
-                  -0.09262897819280624,
-                  -0.08923930674791336,
-                  -0.2697409987449646,
-                  -0.07608534395694733,
-                  -0.07760931551456451,
-                  -0.04722271114587784,
-                  -0.07397971302270889,
-                  -0.20898364616034698
+                  -0.9538267254829407,
+                  -0.48566824197769165,
+                  -0.1963745653629303,
+                  -0.6092724204063416,
+                  -0.6412842273712158,
+                  -0.13531430065631866,
+                  -0.6485792398452759,
+                  -0.1626548022031784,
+                  -0.5552279949188232,
+                  -0.1588616818189621,
+                  -0.1579715460538864,
+                  -0.17095334827899933,
+                  -0.2504541575908661,
+                  -0.1189676821231842,
+                  -0.1189676821231842,
+                  -0.14341270923614502,
+                  -0.4698089361190796,
+                  -0.06399985402822495,
+                  -0.23883135616779327,
+                  -0.1035463735461235,
+                  -0.1035463735461235,
+                  -0.19502773880958557,
+                  -0.18411321938037872,
+                  -0.17310306429862976,
+                  -0.16158919036388397,
+                  -0.052564837038517,
+                  -0.04640810936689377,
+                  -0.04068780690431595,
+                  -0.09576785564422607,
+                  -0.0922599732875824,
+                  -0.2798922061920166,
+                  -0.07860104739665985,
+                  -0.07571663707494736,
+                  -0.05454804375767708,
+                  -0.07418288290500641,
+                  -0.21960532462612486
                 ],
                 [
-                  1.2108876705169678,
-                  -1.7597788572311401,
-                  -2.329012393951416,
-                  -0.39154475927352905,
-                  -0.39154475927352905,
-                  -1.7223689556121826,
-                  -1.5117193460464478,
-                  -1.5117193460464478,
-                  4.685675621032715,
-                  -0.09304986894130707,
-                  -0.009821075946092606,
-                  -0.009821075946092606,
-                  -0.48205530643463135,
+                  1.283364176750183,
+                  -1.751133918762207,
+                  -2.2170772552490234,
+                  -0.38802751898765564,
+                  -0.38802751898765564,
+                  -1.6797469854354858,
+                  -1.46176016330719,
+                  -1.46176016330719,
+                  4.574456691741943,
+                  -0.100859634578228,
                   0,
-                  -0.044211313128471375,
                   0,
-                  1.016545057296753,
-                  1.8830006122589111,
-                  5.993435382843018,
-                  4.1104326248168945,
-                  14.285704612731934,
-                  -0.45895645022392273,
-                  -0.21629497408866882,
-                  -0.3800473213195801,
-                  -0.5569524168968201,
-                  -0.12794627249240875,
-                  -0.29721471667289734,
-                  -0.11819148063659668,
-                  -0.22721385955810547,
-                  -0.15515029430389404,
-                  -0.14969807863235474,
-                  -0.16502556204795837,
-                  -0.28158119320869446,
-                  -0.14553505182266235,
-                  -0.14553505182266235,
-                  -0.17012479901313782,
-                  -0.18650169670581818,
-                  -0.12109100818634033,
-                  -0.17459054291248322,
-                  -0.11891499161720276,
-                  -0.11891499161720276,
-                  -0.22842486202716827,
-                  -0.21603275835514069,
-                  -0.20397493243217468,
-                  -0.20741941034793854,
-                  -0.05941164121031761,
-                  -0.05254729464650154,
-                  -0.04609015956521034,
-                  -0.10846187174320221,
-                  -0.10443457216024399,
-                  -0.8615264892578125,
-                  -0.07992793619632721,
-                  -0.07697931677103043,
-                  -0.049143869429826736,
-                  -0.08298034965991974,
-                  -0.5038293844439786
+                  -0.2862645387649536,
+                  0,
+                  -0.04520181193947792,
+                  0,
+                  1.0045020580291748,
+                  1.8801153898239136,
+                  6.04808235168457,
+                  4.167964935302734,
+                  14.284677505493164,
+                  -0.47128939628601074,
+                  -0.2050611525774002,
+                  -0.4018862247467041,
+                  -0.5839703679084778,
+                  -0.13325943052768707,
+                  -0.3104994297027588,
+                  -0.12248770147562027,
+                  -0.23302927613258362,
+                  -0.15890195965766907,
+                  -0.15460678935050964,
+                  -0.1687772274017334,
+                  -0.2852852940559387,
+                  -0.1498008817434311,
+                  -0.1498008817434311,
+                  -0.17438700795173645,
+                  -0.19202938675880432,
+                  -0.12476151436567307,
+                  -0.1799841970205307,
+                  -0.12237084656953812,
+                  -0.12237084656953812,
+                  -0.23445336520671844,
+                  -0.2217569202184677,
+                  -0.20942264795303345,
+                  -0.2087903916835785,
+                  -0.059836022555828094,
+                  -0.05287642776966095,
+                  -0.046356432139873505,
+                  -0.11705117672681808,
+                  -0.11267976462841034,
+                  -0.8642833232879639,
+                  -0.0881129577755928,
+                  -0.0848369151353836,
+                  -0.05164479464292526,
+                  -0.08542150259017944,
+                  -0.504780738606743
                 ],
                 [
-                  -2.6813979148864746,
-                  -0.17650659382343292,
-                  -5.075986385345459,
-                  -1.8118118047714233,
-                  -1.8118118047714233,
-                  -1.317481517791748,
-                  -0.455746591091156,
-                  -0.455746591091156,
-                  -4.6072282791137695,
-                  -2.0342657566070557,
-                  -5.771155834197998,
-                  -5.771155834197998,
-                  -4.270170211791992,
-                  -2.092463254928589,
-                  -3.1039464473724365,
-                  -2.092463254928589,
-                  -5.825117588043213,
-                  -0.07445480674505234,
-                  -3.520878314971924,
-                  -3.4231948852539062,
-                  -0.27252617478370667,
-                  2.7493882179260254,
-                  2.7717185020446777,
-                  1.9695326089859009,
-                  1.8020820617675781,
-                  2.7615463733673096,
-                  -1.6523584127426147,
-                  1.1420314311981201,
-                  6.6147284507751465,
-                  7.625068664550781,
-                  -8.217917442321777,
-                  -3.2646143436431885,
-                  -8.287020683288574,
-                  1.3745242357254028,
-                  1.3745242357254028,
-                  2.7772865295410156,
-                  0.8698668479919434,
-                  1.881520390510559,
-                  0.07190520316362381,
-                  1.3590688705444336,
-                  1.3590688705444336,
-                  -11.53768539428711,
-                  -11.535693168640137,
-                  -11.533698081970215,
-                  -2.478644609451294,
-                  -3.2805354595184326,
-                  -3.2794809341430664,
-                  -3.2779622077941895,
-                  -11.529719352722168,
-                  -11.527717590332031,
-                  -5.727431774139404,
-                  -11.524725914001465,
-                  -11.522720336914062,
-                  -3.377220392227173,
-                  -1.0567560195922852,
-                  11.568692391686776
+                  -1.6785204410552979,
+                  -0.1443706452846527,
+                  -3.3054141998291016,
+                  -1.1138545274734497,
+                  -1.1138545274734497,
+                  -1.1301581859588623,
+                  -0.2257683128118515,
+                  -0.2257683128118515,
+                  -3.198444366455078,
+                  -1.431719422340393,
+                  -3.6540260314941406,
+                  -3.6540260314941406,
+                  -2.4730629920959473,
+                  -1.3994046449661255,
+                  -2.0760602951049805,
+                  -1.3994046449661255,
+                  -3.682485342025757,
+                  -0.01643422059714794,
+                  -2.080713987350464,
+                  -2.0478458404541016,
+                  -0.10058567672967911,
+                  7.005301475524902,
+                  7.056732654571533,
+                  4.670104026794434,
+                  4.643651962280273,
+                  3.309718132019043,
+                  -0.8732997179031372,
+                  2.496474266052246,
+                  6.741194725036621,
+                  7.415389537811279,
+                  -5.332440376281738,
+                  -1.804162621498108,
+                  -5.521030426025391,
+                  3.496607780456543,
+                  3.496607780456543,
+                  7.065791606903076,
+                  3.1586897373199463,
+                  3.8360278606414795,
+                  0.00042670866241678596,
+                  3.4614157676696777,
+                  3.4614157676696777,
+                  -7.291383266448975,
+                  -7.286571502685547,
+                  -7.281754016876221,
+                  -2.4011967182159424,
+                  -1.8496304750442505,
+                  -1.8474578857421875,
+                  -1.8439631462097168,
+                  -7.272113800048828,
+                  -7.26727819442749,
+                  -3.6496167182922363,
+                  -7.2600417137146,
+                  -7.255191326141357,
+                  -3.466643810272217,
+                  -1.043111801147461,
+                  7.377328455608935
                 ],
                 [
-                  -2.5794904232025146,
-                  -3.191206455230713,
-                  -3.0993404388427734,
-                  -0.4137404263019562,
-                  -0.4137404263019562,
-                  0.000001833448777688318,
-                  -1.1577582359313965,
-                  -1.1577582359313965,
-                  -3.421933889389038,
-                  -0.6248078942298889,
-                  -3.4554686546325684,
-                  -3.4554686546325684,
-                  -3.023540496826172,
-                  -1.1841017007827759,
-                  -1.8471779823303223,
-                  -1.1841017007827759,
-                  2.9684934616088867,
-                  -1.4127730131149292,
-                  -2.569859743118286,
-                  -1.1223366260528564,
-                  -0.02042882889509201,
-                  -6.910935878753662,
-                  -6.910935878753662,
-                  -3.7197306156158447,
-                  -6.910935401916504,
-                  -1.4345160722732544,
-                  2.490863084793091,
-                  -0.5667468309402466,
-                  -7.468455791473389,
-                  -6.817253589630127,
-                  3.4598312377929688,
-                  1.2438616752624512,
-                  6.130912780761719,
-                  -3.4554684162139893,
-                  -3.4554684162139893,
-                  -6.910935401916504,
-                  -3.7810685634613037,
-                  -3.1298680305480957,
-                  -1.1051766872406006,
-                  -3.45546817779541,
-                  -3.45546817779541,
-                  7.374772548675537,
-                  7.374772548675537,
-                  7.374772548675537,
-                  0.000004119278401049087,
-                  1.2438634634017944,
-                  1.243863582611084,
-                  1.2438637018203735,
-                  7.3747782707214355,
-                  7.3747782707214355,
-                  4.406281471252441,
-                  7.374777793884277,
-                  7.3747782707214355,
-                  4.615288734436035,
-                  0.000004139692919125082,
-                  6.910937625501455
+                  -2.5430047512054443,
+                  -3.2235124111175537,
+                  -3.296259880065918,
+                  -0.5720354914665222,
+                  -0.5720354914665222,
+                  0.00015307049034163356,
+                  -1.1992220878601074,
+                  -1.1992220878601074,
+                  -3.7179529666900635,
+                  -0.7551681399345398,
+                  -3.4499940872192383,
+                  -3.4499940872192383,
+                  -2.4859488010406494,
+                  -1.3057043552398682,
+                  -1.9516136646270752,
+                  -1.3057043552398682,
+                  3.02061128616333,
+                  -1.322322964668274,
+                  -2.3493311405181885,
+                  -0.9567936062812805,
+                  -0.0031643284019082785,
+                  -6.899986267089844,
+                  -6.899982452392578,
+                  -3.6764755249023438,
+                  -6.899979114532471,
+                  -1.4531617164611816,
+                  2.525256872177124,
+                  -0.5699364542961121,
+                  -7.4499192237854,
+                  -6.835747718811035,
+                  3.4734296798706055,
+                  1.2496927976608276,
+                  6.13599967956543,
+                  -3.449993133544922,
+                  -3.449993133544922,
+                  -6.899980068206787,
+                  -3.7570784091949463,
+                  -3.14290714263916,
+                  -1.0978100299835205,
+                  -3.4499924182891846,
+                  -3.4499924182891846,
+                  7.385682582855225,
+                  7.385683536529541,
+                  7.385684013366699,
+                  0.000048591777158435434,
+                  1.2497280836105347,
+                  1.2497291564941406,
+                  1.2497307062149048,
+                  7.385730266571045,
+                  7.385730743408203,
+                  4.365029811859131,
+                  7.385730266571045,
+                  7.385730743408203,
+                  4.610551357269287,
+                  0.00004936655386700295,
+                  6.899990263417849
                 ]
               ]
             }
@@ -2400,966 +1200,6 @@
     },
     "intentDomains": {},
     "extraSentences": [
-      [
-        "en",
-        "are you open on sunday"
-      ],
-      [
-        "en",
-        "is the store open today"
-      ],
-      [
-        "en",
-        "do you open today"
-      ],
-      [
-        "en",
-        "closing time"
-      ],
-      [
-        "en",
-        "are you open on sunday"
-      ],
-      [
-        "en",
-        "is the store open today"
-      ],
-      [
-        "en",
-        "do you open today"
-      ],
-      [
-        "en",
-        "closing time"
-      ],
-      [
-        "en",
-        "are you open now"
-      ],
-      [
-        "en",
-        "is the store open now"
-      ],
-      [
-        "en",
-        "do you open now"
-      ],
-      [
-        "en",
-        "can I come now"
-      ],
-      [
-        "en",
-        "what are your hours today"
-      ],
-      [
-        "en",
-        "business hours today"
-      ],
-      [
-        "en",
-        "when do you open today"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hey"
-      ],
-      [
-        "en",
-        "hello there"
-      ],
-      [
-        "en",
-        "hi there"
-      ],
-      [
-        "en",
-        "hey there"
-      ],
-      [
-        "en",
-        "good morning"
-      ],
-      [
-        "en",
-        "good afternoon"
-      ],
-      [
-        "en",
-        "good evening"
-      ],
-      [
-        "en",
-        "howdy"
-      ],
-      [
-        "en",
-        "yo"
-      ],
-      [
-        "en",
-        "what's up"
-      ],
-      [
-        "en",
-        "whats up"
-      ],
-      [
-        "en",
-        "sup"
-      ],
-      [
-        "en",
-        "greetings"
-      ],
-      [
-        "en",
-        "nice to meet you"
-      ],
-      [
-        "en",
-        "good day"
-      ],
-      [
-        "en",
-        "hello chatbot"
-      ],
-      [
-        "en",
-        "hi chatbot"
-      ],
-      [
-        "en",
-        "hey chatbot"
-      ],
-      [
-        "en",
-        "are you open now"
-      ],
-      [
-        "en",
-        "is the store open now"
-      ],
-      [
-        "en",
-        "do you open now"
-      ],
-      [
-        "en",
-        "can I come now"
-      ],
-      [
-        "en",
-        "are you open on sunday"
-      ],
-      [
-        "en",
-        "is the store open today"
-      ],
-      [
-        "en",
-        "do you open today"
-      ],
-      [
-        "en",
-        "closing time"
-      ],
-      [
-        "en",
-        "are you open now"
-      ],
-      [
-        "en",
-        "is the store open now"
-      ],
-      [
-        "en",
-        "do you open now"
-      ],
-      [
-        "en",
-        "can I come now"
-      ],
-      [
-        "en",
-        "what are your hours today"
-      ],
-      [
-        "en",
-        "business hours today"
-      ],
-      [
-        "en",
-        "when do you open today"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hey"
-      ],
-      [
-        "en",
-        "hello there"
-      ],
-      [
-        "en",
-        "hi there"
-      ],
-      [
-        "en",
-        "hey there"
-      ],
-      [
-        "en",
-        "good morning"
-      ],
-      [
-        "en",
-        "good afternoon"
-      ],
-      [
-        "en",
-        "good evening"
-      ],
-      [
-        "en",
-        "howdy"
-      ],
-      [
-        "en",
-        "yo"
-      ],
-      [
-        "en",
-        "what's up"
-      ],
-      [
-        "en",
-        "whats up"
-      ],
-      [
-        "en",
-        "sup"
-      ],
-      [
-        "en",
-        "greetings"
-      ],
-      [
-        "en",
-        "nice to meet you"
-      ],
-      [
-        "en",
-        "good day"
-      ],
-      [
-        "en",
-        "hello chatbot"
-      ],
-      [
-        "en",
-        "hi chatbot"
-      ],
-      [
-        "en",
-        "hey chatbot"
-      ],
-      [
-        "en",
-        "what are your hours today"
-      ],
-      [
-        "en",
-        "business hours today"
-      ],
-      [
-        "en",
-        "when do you open today"
-      ],
-      [
-        "en",
-        "are you open on sunday"
-      ],
-      [
-        "en",
-        "is the store open today"
-      ],
-      [
-        "en",
-        "do you open today"
-      ],
-      [
-        "en",
-        "closing time"
-      ],
-      [
-        "en",
-        "are you open now"
-      ],
-      [
-        "en",
-        "is the store open now"
-      ],
-      [
-        "en",
-        "do you open now"
-      ],
-      [
-        "en",
-        "can I come now"
-      ],
-      [
-        "en",
-        "what are your hours today"
-      ],
-      [
-        "en",
-        "business hours today"
-      ],
-      [
-        "en",
-        "when do you open today"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hey"
-      ],
-      [
-        "en",
-        "hello there"
-      ],
-      [
-        "en",
-        "hi there"
-      ],
-      [
-        "en",
-        "hey there"
-      ],
-      [
-        "en",
-        "good morning"
-      ],
-      [
-        "en",
-        "good afternoon"
-      ],
-      [
-        "en",
-        "good evening"
-      ],
-      [
-        "en",
-        "howdy"
-      ],
-      [
-        "en",
-        "yo"
-      ],
-      [
-        "en",
-        "what's up"
-      ],
-      [
-        "en",
-        "whats up"
-      ],
-      [
-        "en",
-        "sup"
-      ],
-      [
-        "en",
-        "greetings"
-      ],
-      [
-        "en",
-        "nice to meet you"
-      ],
-      [
-        "en",
-        "good day"
-      ],
-      [
-        "en",
-        "hello chatbot"
-      ],
-      [
-        "en",
-        "hi chatbot"
-      ],
-      [
-        "en",
-        "hey chatbot"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
-      ],
-      [
-        "en",
-        "are you open on sunday"
-      ],
-      [
-        "en",
-        "is the store open today"
-      ],
-      [
-        "en",
-        "do you open today"
-      ],
-      [
-        "en",
-        "closing time"
-      ],
-      [
-        "en",
-        "are you open now"
-      ],
-      [
-        "en",
-        "is the store open now"
-      ],
-      [
-        "en",
-        "do you open now"
-      ],
-      [
-        "en",
-        "can I come now"
-      ],
-      [
-        "en",
-        "what are your hours today"
-      ],
-      [
-        "en",
-        "business hours today"
-      ],
-      [
-        "en",
-        "when do you open today"
-      ],
-      [
-        "en",
-        "bye"
-      ],
-      [
-        "en",
-        "goodbye"
-      ],
-      [
-        "en",
-        "see you"
-      ],
-      [
-        "en",
-        "see you later"
-      ],
-      [
-        "en",
-        "talk to you later"
-      ],
-      [
-        "en",
-        "catch you later"
-      ],
-      [
-        "en",
-        "have a nice day"
-      ],
-      [
-        "en",
-        "have a good day"
-      ],
-      [
-        "en",
-        "take care"
-      ],
-      [
-        "en",
-        "farewell"
-      ],
-      [
-        "en",
-        "i have to go"
-      ],
-      [
-        "en",
-        "gotta go"
-      ],
-      [
-        "en",
-        "thanks bye"
-      ],
-      [
-        "en",
-        "thank you bye"
-      ],
-      [
-        "en",
-        "bye bye"
-      ],
-      [
-        "en",
-        "later"
-      ],
-      [
-        "en",
-        "peace out"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hey"
-      ],
-      [
-        "en",
-        "hello there"
-      ],
-      [
-        "en",
-        "hi there"
-      ],
-      [
-        "en",
-        "hey there"
-      ],
-      [
-        "en",
-        "good morning"
-      ],
-      [
-        "en",
-        "good afternoon"
-      ],
-      [
-        "en",
-        "good evening"
-      ],
-      [
-        "en",
-        "howdy"
-      ],
-      [
-        "en",
-        "yo"
-      ],
-      [
-        "en",
-        "what's up"
-      ],
-      [
-        "en",
-        "whats up"
-      ],
-      [
-        "en",
-        "sup"
-      ],
-      [
-        "en",
-        "greetings"
-      ],
-      [
-        "en",
-        "nice to meet you"
-      ],
-      [
-        "en",
-        "good day"
-      ],
-      [
-        "en",
-        "hello chatbot"
-      ],
-      [
-        "en",
-        "hi chatbot"
-      ],
-      [
-        "en",
-        "hey chatbot"
-      ],
-      [
-        "en",
-        "hello"
-      ],
-      [
-        "en",
-        "hi"
-      ],
-      [
-        "en",
-        "hey"
-      ],
-      [
-        "en",
-        "hello there"
-      ],
-      [
-        "en",
-        "hi there"
-      ],
-      [
-        "en",
-        "hey there"
-      ],
-      [
-        "en",
-        "good morning"
-      ],
-      [
-        "en",
-        "good afternoon"
-      ],
-      [
-        "en",
-        "good evening"
-      ],
-      [
-        "en",
-        "howdy"
-      ],
-      [
-        "en",
-        "yo"
-      ],
-      [
-        "en",
-        "what's up"
-      ],
-      [
-        "en",
-        "whats up"
-      ],
-      [
-        "en",
-        "sup"
-      ],
-      [
-        "en",
-        "greetings"
-      ],
-      [
-        "en",
-        "nice to meet you"
-      ],
-      [
-        "en",
-        "good day"
-      ],
-      [
-        "en",
-        "hello chatbot"
-      ],
-      [
-        "en",
-        "hi chatbot"
-      ],
-      [
-        "en",
-        "hey chatbot"
-      ],
       [
         "en",
         "are you open on sunday"
