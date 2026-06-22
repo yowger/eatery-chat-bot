@@ -3,6 +3,7 @@ import { Intent } from "../types/intents.js"
 const intents: Intent[] = [
     {
         intent: "goodbye",
+        type: "static",
         examples: [
             "bye",
             "goodbye",

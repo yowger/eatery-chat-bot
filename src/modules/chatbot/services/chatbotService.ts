@@ -1,7 +1,10 @@
 import { NlpManager } from "node-nlp"
 
-import { type IntentProvider } from "../providers/IntentProvider"
+import { isStaticIntent } from "../types/intents"
+
 import { type ChatResponse } from "../types/intents"
+import { type IntentProvider } from "../providers/IntentProvider"
+import { intentHandlers } from "../handlers/intentHandlers"
 
 export class ChatbotService {
     private manager: NlpManager
@@ -33,8 +36,24 @@ export class ChatbotService {
                 this.manager.addDocument(this.locale, example, intent.intent)
             }
 
-            for (const response of intent.responses) {
-                this.manager.addAnswer(this.locale, intent.intent, response)
+            for (const intent of intents) {
+                for (const example of intent.examples) {
+                    this.manager.addDocument(
+                        this.locale,
+                        example,
+                        intent.intent,
+                    )
+                }
+
+                if (isStaticIntent(intent)) {
+                    for (const response of intent.responses) {
+                        this.manager.addAnswer(
+                            this.locale,
+                            intent.intent,
+                            response,
+                        )
+                    }
+                }
             }
         }
 
@@ -61,10 +80,15 @@ export class ChatbotService {
             return this.getFallbackResponse(response.score)
         }
 
+        const handler = intentHandlers[response.intent]
+
+        const answer = handler
+            ? handler()
+            : (response.answer ?? "Sorry, I don't have a response for that.")
+
         return {
             intent: response.intent,
-            answer:
-                response.answer ?? "Sorry, I don't have a response for that.",
+            answer,
             score: response.score,
         }
     }
