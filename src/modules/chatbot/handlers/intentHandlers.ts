@@ -1,4 +1,4 @@
-import { BusinessService } from "../services/BusinessService"
+import { BusinessService } from "../../business/services/BusinessService"
 import { IntentHandler } from "../types/intents"
 
 export const businessService = new BusinessService()
