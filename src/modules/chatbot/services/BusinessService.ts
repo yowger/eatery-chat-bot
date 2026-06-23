@@ -1,23 +1,7 @@
 import { businessConfig } from "../config/BusinessConfig"
-import { IBusinessService } from "../interfaces/IBusinessService"
+import { isOpenNow } from "../utils/businessUtil"
 
-export class BusinessService implements IBusinessService {
-    getHours(): string {
-        const hours = businessConfig.hours
-
-        return Object.entries(hours)
-            .map(([day, value]) => {
-                const label = day.charAt(0).toUpperCase() + day.slice(1)
-
-                if (value.closed) {
-                    return `${label}: Closed`
-                }
-
-                return `${label}: ${value.open} - ${value.close}`
-            })
-            .join("\n")
-    }
-
+export class BusinessService {
     getAddress(): string {
         return businessConfig.address
     }
@@ -26,7 +10,33 @@ export class BusinessService implements IBusinessService {
         return businessConfig.phone
     }
 
-    getName(): string {
-        return businessConfig.name
+    getTodayHours(): string {
+        const status = isOpenNow(businessConfig.hours)
+
+        if (!status.todayHours) {
+            return "We are closed today."
+        }
+
+        return status.todayHours
+    }
+
+    isOpenToday(): string {
+        const status = isOpenNow(businessConfig.hours)
+
+        if (!status.open) {
+            return "No, we are closed today."
+        }
+
+        return `Yes, we are open today until ${status.todayHours}.`
+    }
+
+    isOpenNow(): string {
+        const status = isOpenNow(businessConfig.hours)
+
+        if (!status.open) {
+            return "No, we are currently closed."
+        }
+
+        return `Yes, we are currently open until ${status.todayHours}.`
     }
 }

@@ -106,7 +106,7 @@ export class ChatbotService {
         const handler = intentHandlers[intentName]
 
         if (!handler) {
-            throw new Error(`No handler registered for intent "${intentName}"`)
+            return "I'm sorry, I don't have a response for that."
         }
 
         return handler(message)
