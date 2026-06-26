@@ -15,6 +15,7 @@ export const businessConfig: BusinessConfig = {
         tuesday: { open: "10:00", close: "20:00" },
         wednesday: { open: "10:00", close: "20:00" },
         thursday: { open: "10:00", close: "20:00" },
+        // thursday: { closed: true, open: "", close: "" },
         friday: { open: "10:00", close: "22:00" },
         saturday: { open: "10:00", close: "22:00" },
         sunday: { closed: true, open: "", close: "" },

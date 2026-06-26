@@ -2,6 +2,10 @@ import { businessConfig } from "../config/BusinessConfig"
 import { isOpenNow } from "../utils/businessUtil"
 
 export class BusinessService {
+    getName(): string {
+        return businessConfig.name
+    }
+
     getAddress(): string {
         return businessConfig.address
     }
@@ -10,33 +14,19 @@ export class BusinessService {
         return businessConfig.phone
     }
 
-    getTodayHours(): string {
-        const status = isOpenNow(businessConfig.hours)
-
-        if (!status.todayHours) {
-            return "We are closed today."
-        }
-
-        return status.todayHours
+    getHours() {
+        return businessConfig.hours
     }
 
-    isOpenToday(): string {
-        const status = isOpenNow(businessConfig.hours)
-
-        if (!status.open) {
-            return "No, we are closed today."
-        }
-
-        return `Yes, we are open today until ${status.todayHours}.`
+    getStatus() {
+        return isOpenNow(businessConfig.hours)
     }
 
-    isOpenNow(): string {
-        const status = isOpenNow(businessConfig.hours)
+    isOpen(): boolean {
+        return this.getStatus().open
+    }
 
-        if (!status.open) {
-            return "No, we are currently closed."
-        }
-
-        return `Yes, we are currently open until ${status.todayHours}.`
+    getTodayHours(): string | undefined {
+        return this.getStatus().todayHours
     }
 }

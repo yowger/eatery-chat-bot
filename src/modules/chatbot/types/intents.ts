@@ -28,8 +28,30 @@ export const isDynamicIntent = (intent: Intent): intent is DynamicIntent => {
     return intent.type === "dynamic"
 }
 
-export const isIntent = (intent: Intent): intent is Intent => {
-    return isStaticIntent(intent) || isDynamicIntent(intent)
+export function isIntent(value: unknown): value is Intent {
+    if (!value || typeof value !== "object") {
+        return false
+    }
+
+    const intent = value as Partial<Intent>
+
+    if (typeof intent.intent !== "string" || !Array.isArray(intent.examples)) {
+        return false
+    }
+
+    if (intent.type === "static") {
+        return Array.isArray(intent.responses)
+    }
+
+    if (intent.type === "dynamic") {
+        return true
+    }
+
+    return false
 }
 
-export type IntentHandler = (message: string) => string
+export type IntentHandler<TArgs extends any[] = any[], TResult = any> = (
+    ...args: TArgs
+) => TResult
+
+export type IntentHandlerMap = Record<string, IntentHandler>

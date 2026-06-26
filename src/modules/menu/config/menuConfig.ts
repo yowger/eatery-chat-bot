@@ -1,24 +1,4 @@
-export type MenuSize = {
-    label: "small" | "medium" | "large"
-    priceModifier: number
-}
-
-export type MenuItem = {
-    id: string
-    name: string
-    description?: string
-    price: number
-
-    category: "food" | "drink" | "dessert"
-
-    sizes?: MenuSize[]
-
-    tags?: string[]
-
-    allergens?: string[]
-
-    available: boolean
-}
+import { MenuItem } from "../types/menu"
 
 export const menuConfig: MenuItem[] = [
     {

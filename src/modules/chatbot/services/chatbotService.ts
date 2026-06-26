@@ -35,6 +35,10 @@ export class ChatbotService {
         const intents = await this.provider.getIntents()
 
         for (const intent of intents) {
+            if (!intent) {
+                continue
+            }
+
             this.intents.set(intent.intent, intent)
 
             for (const example of intent.examples) {
