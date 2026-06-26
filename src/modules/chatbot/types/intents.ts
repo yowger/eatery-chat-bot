@@ -1,3 +1,5 @@
+import type { NlpResult } from "node-nlp"
+
 export type BaseIntent = {
     intent: string
     examples: string[]
@@ -50,8 +52,6 @@ export function isIntent(value: unknown): value is Intent {
     return false
 }
 
-export type IntentHandler<TArgs extends any[] = any[], TResult = any> = (
-    ...args: TArgs
-) => TResult
+export type IntentHandler = (result: NlpResult) => string
 
 export type IntentHandlerMap = Record<string, IntentHandler>

@@ -3,6 +3,7 @@
     "languages": [
       "en"
     ],
+    "forceNER": true,
     "tag": "nlp",
     "threshold": 0.5,
     "autoLoad": true,
@@ -221,6 +222,218 @@
           "chatbot,hey": {
             "intent": "greeting",
             "domain": "default"
+          },
+          "me,menu,show,the": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "menu,show": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "can,i,menu,see,the": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "do,serv,what,you": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "do,food,have,what,you": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "do,sell,what,you": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "is,menu,on,the,what": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "list,menu,your": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "menu,pleas": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "display,menu,the": {
+            "intent": "ask_menu",
+            "domain": "default"
+          },
+          "about,burger,me,tell": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "burger,is,what": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "cheeseburg,is,what": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "chicken,describ,fri": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "come,fri,what,with": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "about,burger,give,inform,me": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "coke,detail,of,show": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "cream,ice,is,what": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "about,cake,chocol,me,tell": {
+            "intent": "ask_menu_item",
+            "domain": "default"
+          },
+          "burger,how,is,much": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "burger,of,price": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "burger,cost,doe,how,much": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "burger,is,of,price,the,what": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "a,burger,how,is,larg,much": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "a,fri,how,is,much,small": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "coke,larg,of,price": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "cheeseburg,how,is,medium,much": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "coffe,cost,doe,hot,what": {
+            "intent": "ask_price",
+            "domain": "default"
+          },
+          "drink,me,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "dessert,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "food,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "do,drink,have,what,you": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "dessert,do,sell,what,you": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "food,list": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "food,menu,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "drink,menu,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "dessert,menu,show": {
+            "intent": "ask_menu_category",
+            "domain": "default"
+          },
+          "food,halal,show": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "food,show,vegan": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "food,show,vegetarian": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "are,bestsel,what,your": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "are,bestsel,item,what,your": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "food,show,spici": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "do,have,item,vegan,what,you": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "halal,list,menu": {
+            "intent": "ask_tag",
+            "domain": "default"
+          },
+          "contain,food,gluten,which": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "dairi,has,what": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "egg,have,item,menu,which": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "gluten,item,show": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "dairi,food,with": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "egg,food,with": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "contain,item,milk,which": {
+            "intent": "ask_allergen",
+            "domain": "default"
+          },
+          "gluten,has,menu,what": {
+            "intent": "ask_allergen",
+            "domain": "default"
           }
         },
         "intentDict": {
@@ -228,7 +441,13 @@
           "ask_open_now": "default",
           "get_today_hours": "default",
           "goodbye": "default",
-          "greeting": "default"
+          "greeting": "default",
+          "ask_menu": "default",
+          "ask_menu_item": "default",
+          "ask_price": "default",
+          "ask_menu_category": "default",
+          "ask_tag": "default",
+          "ask_allergen": "default"
         },
         "sentences": [
           {
@@ -470,6 +689,271 @@
             "domain": "default",
             "utterance": "hey chatbot",
             "intent": "greeting"
+          },
+          {
+            "domain": "default",
+            "utterance": "show me the menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "show menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "can i see the menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "what do you serve",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "what food do you have",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "what do you sell",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "what's on the menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "list your menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "menu please",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "display the menu",
+            "intent": "ask_menu"
+          },
+          {
+            "domain": "default",
+            "utterance": "tell me about burger",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is burger",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is cheeseburger",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "describe fried chicken",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "what comes with fries",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "give me information about burger",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "show details of coke",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is ice cream",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "tell me about chocolate cake",
+            "intent": "ask_menu_item"
+          },
+          {
+            "domain": "default",
+            "utterance": "how much is burger",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "price of burger",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "how much does burger cost",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "what is the price of burger",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "how much is a large burger",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "how much is a small fries",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "price of large coke",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "how much is medium cheeseburger",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "what does hot coffee cost",
+            "intent": "ask_price"
+          },
+          {
+            "domain": "default",
+            "utterance": "show me drinks",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show desserts",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show food",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "what drinks do you have",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "what desserts do you sell",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "list food",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show food menu",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show drink menu",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show dessert menu",
+            "intent": "ask_menu_category"
+          },
+          {
+            "domain": "default",
+            "utterance": "show halal food",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "show vegan food",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "show vegetarian food",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "what are your bestsellers",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "what are your bestseller items",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "show spicy food",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "what vegan items do you have",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "list halal menu",
+            "intent": "ask_tag"
+          },
+          {
+            "domain": "default",
+            "utterance": "which foods contain gluten",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "what has dairy",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "which menu items have eggs",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "show gluten items",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "foods with dairy",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "foods with eggs",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "which items contain milk",
+            "intent": "ask_allergen"
+          },
+          {
+            "domain": "default",
+            "utterance": "what menu has gluten",
+            "intent": "ask_allergen"
           }
         ],
         "domains": {
@@ -540,14 +1024,71 @@
               "sup": 1,
               "greet": 1,
               "meet": 1,
-              "chatbot": 1
+              "chatbot": 1,
+              "show": 1,
+              "me": 1,
+              "menu": 1,
+              "serv": 1,
+              "food": 1,
+              "sell": 1,
+              "list": 1,
+              "pleas": 1,
+              "display": 1,
+              "tell": 1,
+              "about": 1,
+              "burger": 1,
+              "cheeseburg": 1,
+              "describ": 1,
+              "fri": 1,
+              "chicken": 1,
+              "with": 1,
+              "give": 1,
+              "inform": 1,
+              "detail": 1,
+              "of": 1,
+              "coke": 1,
+              "ice": 1,
+              "cream": 1,
+              "chocol": 1,
+              "cake": 1,
+              "how": 1,
+              "much": 1,
+              "price": 1,
+              "doe": 1,
+              "cost": 1,
+              "larg": 1,
+              "small": 1,
+              "medium": 1,
+              "hot": 1,
+              "coffe": 1,
+              "drink": 1,
+              "dessert": 1,
+              "halal": 1,
+              "vegan": 1,
+              "vegetarian": 1,
+              "bestsel": 1,
+              "item": 1,
+              "spici": 1,
+              "which": 1,
+              "contain": 1,
+              "gluten": 1,
+              "has": 1,
+              "dairi": 1,
+              "egg": 1,
+              "milk": 1
             },
             "intents": {
               "ask_open_today": 1,
               "ask_open_now": 1,
               "get_today_hours": 1,
               "goodbye": 1,
-              "greeting": 1
+              "greeting": 1,
+              "ask_menu": 1,
+              "ask_menu_item": 1,
+              "ask_price": 1,
+              "ask_menu_category": 1,
+              "ask_tag": 1,
+              "ask_allergen": 1
             },
             "intentFeatures": {
               "ask_open_today": {
@@ -635,20 +1176,139 @@
                 "you": 1,
                 "day": 1,
                 "chatbot": 1
+              },
+              "ask_menu": {
+                "show": 1,
+                "me": 1,
+                "the": 1,
+                "menu": 1,
+                "can": 1,
+                "i": 1,
+                "see": 1,
+                "what": 1,
+                "do": 1,
+                "you": 1,
+                "serv": 1,
+                "food": 1,
+                "have": 1,
+                "sell": 1,
+                "is": 1,
+                "on": 1,
+                "list": 1,
+                "your": 1,
+                "pleas": 1,
+                "display": 1
+              },
+              "ask_menu_item": {
+                "tell": 1,
+                "me": 1,
+                "about": 1,
+                "burger": 1,
+                "what": 1,
+                "is": 1,
+                "cheeseburg": 1,
+                "describ": 1,
+                "fri": 1,
+                "chicken": 1,
+                "come": 1,
+                "with": 1,
+                "give": 1,
+                "inform": 1,
+                "show": 1,
+                "detail": 1,
+                "of": 1,
+                "coke": 1,
+                "ice": 1,
+                "cream": 1,
+                "chocol": 1,
+                "cake": 1
+              },
+              "ask_price": {
+                "how": 1,
+                "much": 1,
+                "is": 1,
+                "burger": 1,
+                "price": 1,
+                "of": 1,
+                "doe": 1,
+                "cost": 1,
+                "what": 1,
+                "the": 1,
+                "a": 1,
+                "larg": 1,
+                "small": 1,
+                "fri": 1,
+                "coke": 1,
+                "medium": 1,
+                "cheeseburg": 1,
+                "hot": 1,
+                "coffe": 1
+              },
+              "ask_menu_category": {
+                "show": 1,
+                "me": 1,
+                "drink": 1,
+                "dessert": 1,
+                "food": 1,
+                "what": 1,
+                "do": 1,
+                "you": 1,
+                "have": 1,
+                "sell": 1,
+                "list": 1,
+                "menu": 1
+              },
+              "ask_tag": {
+                "show": 1,
+                "halal": 1,
+                "food": 1,
+                "vegan": 1,
+                "vegetarian": 1,
+                "what": 1,
+                "are": 1,
+                "your": 1,
+                "bestsel": 1,
+                "item": 1,
+                "spici": 1,
+                "do": 1,
+                "you": 1,
+                "have": 1,
+                "list": 1,
+                "menu": 1
+              },
+              "ask_allergen": {
+                "which": 1,
+                "food": 1,
+                "contain": 1,
+                "gluten": 1,
+                "what": 1,
+                "has": 1,
+                "dairi": 1,
+                "menu": 1,
+                "item": 1,
+                "have": 1,
+                "egg": 1,
+                "show": 1,
+                "with": 1,
+                "milk": 1
               }
             },
             "featuresToIntent": {
               "are": [
                 "ask_open_today",
                 "ask_open_now",
-                "get_today_hours"
+                "get_today_hours",
+                "ask_tag"
               ],
               "you": [
                 "ask_open_today",
                 "ask_open_now",
                 "get_today_hours",
                 "goodbye",
-                "greeting"
+                "greeting",
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag"
               ],
               "open": [
                 "ask_open_today",
@@ -656,7 +1316,8 @@
                 "get_today_hours"
               ],
               "on": [
-                "ask_open_today"
+                "ask_open_today",
+                "ask_menu"
               ],
               "sunday": [
                 "ask_open_today"
@@ -664,11 +1325,16 @@
               "is": [
                 "ask_open_today",
                 "ask_open_now",
-                "greeting"
+                "greeting",
+                "ask_menu",
+                "ask_menu_item",
+                "ask_price"
               ],
               "the": [
                 "ask_open_today",
-                "ask_open_now"
+                "ask_open_now",
+                "ask_menu",
+                "ask_price"
               ],
               "store": [
                 "ask_open_today",
@@ -681,7 +1347,10 @@
               "do": [
                 "ask_open_today",
                 "ask_open_now",
-                "get_today_hours"
+                "get_today_hours",
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag"
               ],
               "close": [
                 "ask_open_today"
@@ -693,21 +1362,32 @@
                 "ask_open_now"
               ],
               "can": [
-                "ask_open_now"
+                "ask_open_now",
+                "ask_menu"
               ],
               "i": [
                 "ask_open_now",
-                "goodbye"
+                "goodbye",
+                "ask_menu"
               ],
               "come": [
-                "ask_open_now"
+                "ask_open_now",
+                "ask_menu_item"
               ],
               "what": [
                 "get_today_hours",
-                "greeting"
+                "greeting",
+                "ask_menu",
+                "ask_menu_item",
+                "ask_price",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
               ],
               "your": [
-                "get_today_hours"
+                "get_today_hours",
+                "ask_menu",
+                "ask_tag"
               ],
               "hour": [
                 "get_today_hours"
@@ -725,7 +1405,8 @@
                 "goodbye"
               ],
               "see": [
-                "goodbye"
+                "goodbye",
+                "ask_menu"
               ],
               "later": [
                 "goodbye"
@@ -741,10 +1422,15 @@
                 "goodbye"
               ],
               "have": [
-                "goodbye"
+                "goodbye",
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
               ],
               "a": [
-                "goodbye"
+                "goodbye",
+                "ask_price"
               ],
               "nice": [
                 "goodbye",
@@ -823,6 +1509,181 @@
               ],
               "chatbot": [
                 "greeting"
+              ],
+              "show": [
+                "ask_menu",
+                "ask_menu_item",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
+              ],
+              "me": [
+                "ask_menu",
+                "ask_menu_item",
+                "ask_menu_category"
+              ],
+              "menu": [
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
+              ],
+              "serv": [
+                "ask_menu"
+              ],
+              "food": [
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
+              ],
+              "sell": [
+                "ask_menu",
+                "ask_menu_category"
+              ],
+              "list": [
+                "ask_menu",
+                "ask_menu_category",
+                "ask_tag"
+              ],
+              "pleas": [
+                "ask_menu"
+              ],
+              "display": [
+                "ask_menu"
+              ],
+              "tell": [
+                "ask_menu_item"
+              ],
+              "about": [
+                "ask_menu_item"
+              ],
+              "burger": [
+                "ask_menu_item",
+                "ask_price"
+              ],
+              "cheeseburg": [
+                "ask_menu_item",
+                "ask_price"
+              ],
+              "describ": [
+                "ask_menu_item"
+              ],
+              "fri": [
+                "ask_menu_item",
+                "ask_price"
+              ],
+              "chicken": [
+                "ask_menu_item"
+              ],
+              "with": [
+                "ask_menu_item",
+                "ask_allergen"
+              ],
+              "give": [
+                "ask_menu_item"
+              ],
+              "inform": [
+                "ask_menu_item"
+              ],
+              "detail": [
+                "ask_menu_item"
+              ],
+              "of": [
+                "ask_menu_item",
+                "ask_price"
+              ],
+              "coke": [
+                "ask_menu_item",
+                "ask_price"
+              ],
+              "ice": [
+                "ask_menu_item"
+              ],
+              "cream": [
+                "ask_menu_item"
+              ],
+              "chocol": [
+                "ask_menu_item"
+              ],
+              "cake": [
+                "ask_menu_item"
+              ],
+              "how": [
+                "ask_price"
+              ],
+              "much": [
+                "ask_price"
+              ],
+              "price": [
+                "ask_price"
+              ],
+              "doe": [
+                "ask_price"
+              ],
+              "cost": [
+                "ask_price"
+              ],
+              "larg": [
+                "ask_price"
+              ],
+              "small": [
+                "ask_price"
+              ],
+              "medium": [
+                "ask_price"
+              ],
+              "hot": [
+                "ask_price"
+              ],
+              "coffe": [
+                "ask_price"
+              ],
+              "drink": [
+                "ask_menu_category"
+              ],
+              "dessert": [
+                "ask_menu_category"
+              ],
+              "halal": [
+                "ask_tag"
+              ],
+              "vegan": [
+                "ask_tag"
+              ],
+              "vegetarian": [
+                "ask_tag"
+              ],
+              "bestsel": [
+                "ask_tag"
+              ],
+              "item": [
+                "ask_tag",
+                "ask_allergen"
+              ],
+              "spici": [
+                "ask_tag"
+              ],
+              "which": [
+                "ask_allergen"
+              ],
+              "contain": [
+                "ask_allergen"
+              ],
+              "gluten": [
+                "ask_allergen"
+              ],
+              "has": [
+                "ask_allergen"
+              ],
+              "dairi": [
+                "ask_allergen"
+              ],
+              "egg": [
+                "ask_allergen"
+              ],
+              "milk": [
+                "ask_allergen"
               ]
             },
             "neuralNetwork": {
@@ -892,305 +1753,1271 @@
                 "sup",
                 "greet",
                 "meet",
-                "chatbot"
+                "chatbot",
+                "show",
+                "me",
+                "menu",
+                "serv",
+                "food",
+                "sell",
+                "list",
+                "pleas",
+                "display",
+                "tell",
+                "about",
+                "burger",
+                "cheeseburg",
+                "describ",
+                "fri",
+                "chicken",
+                "with",
+                "give",
+                "inform",
+                "detail",
+                "of",
+                "coke",
+                "ice",
+                "cream",
+                "chocol",
+                "cake",
+                "how",
+                "much",
+                "price",
+                "doe",
+                "cost",
+                "larg",
+                "small",
+                "medium",
+                "hot",
+                "coffe",
+                "drink",
+                "dessert",
+                "halal",
+                "vegan",
+                "vegetarian",
+                "bestsel",
+                "item",
+                "spici",
+                "which",
+                "contain",
+                "gluten",
+                "has",
+                "dairi",
+                "egg",
+                "milk"
               ],
               "intents": [
                 "ask_open_today",
                 "ask_open_now",
                 "get_today_hours",
                 "goodbye",
-                "greeting"
+                "greeting",
+                "ask_menu",
+                "ask_menu_item",
+                "ask_price",
+                "ask_menu_category",
+                "ask_tag",
+                "ask_allergen"
               ],
               "perceptrons": [
                 [
-                  0.41779381036758423,
-                  1.0866543054580688,
-                  4.940532684326172,
-                  3.8015120029449463,
-                  3.8015120029449463,
-                  0.8820564150810242,
-                  1.1083396673202515,
-                  1.1083396673202515,
-                  6.008764266967773,
-                  2.0110764503479004,
-                  7.023952007293701,
-                  7.023952007293701,
-                  -8.729910850524902,
+                  0.8162891268730164,
+                  1.0086748600006104,
+                  5.4610748291015625,
+                  2.725416898727417,
+                  4.127830982208252,
+                  0.16930246353149414,
+                  0.2726801037788391,
+                  2.0703749656677246,
+                  6.166021347045898,
+                  1.49776291847229,
+                  7.069342613220215,
+                  7.069342613220215,
+                  -8.554474830627441,
+                  -0.07899297028779984,
+                  -0.12144099175930023,
                   -0.018277134746313095,
-                  -0.07247714698314667,
-                  -0.018277134746313095,
-                  -1.6291204690933228,
-                  -1.4028375148773193,
-                  -3.82492733001709,
-                  -2.421600341796875,
-                  -14.28418254852295,
-                  -0.8108859658241272,
-                  -0.3921886086463928,
-                  -1.3243824243545532,
-                  -0.8774644732475281,
-                  -0.18391282856464386,
-                  -0.5764389038085938,
-                  -0.4469429552555084,
-                  -0.17723889648914337,
-                  -0.12947219610214233,
-                  -0.41570180654525757,
-                  -0.1342315524816513,
-                  -0.34323611855506897,
-                  -0.23072731494903564,
-                  -0.23072731494903564,
-                  -0.35728761553764343,
-                  -0.24571093916893005,
-                  -0.19977746903896332,
-                  -0.5135151743888855,
-                  -0.21413235366344452,
-                  -0.21413235366344452,
-                  -0.36105474829673767,
-                  -0.3556056022644043,
-                  -0.3508802354335785,
-                  -0.20138077437877655,
-                  -0.10099126398563385,
-                  -0.093827024102211,
-                  -0.08693478256464005,
-                  -0.3284686803817749,
-                  -0.32475364208221436,
-                  -0.21205653250217438,
-                  -0.31991368532180786,
-                  -0.3168033957481384,
-                  -0.3322654366493225,
-                  -0.10983452945947647,
-                  0.2377613895595584
+                  -2.702925443649292,
+                  -1.0345162153244019,
+                  -3.6868202686309814,
+                  -2.625964879989624,
+                  -14.2767333984375,
+                  -0.6910486817359924,
+                  -0.2990178167819977,
+                  -1.155221939086914,
+                  -0.7518099546432495,
+                  -0.15740518271923065,
+                  -0.5013993382453918,
+                  -0.4035574793815613,
+                  -0.12485089898109436,
+                  -0.15733247995376587,
+                  -0.35580921173095703,
+                  -0.0936606153845787,
+                  -0.2610275149345398,
+                  -0.17474494874477386,
+                  -0.17474494874477386,
+                  -0.26985427737236023,
+                  -0.18689146637916565,
+                  -0.1512492299079895,
+                  -0.46428021788597107,
+                  -0.16098667681217194,
+                  -0.16098667681217194,
+                  -0.2728513479232788,
+                  -0.2691754102706909,
+                  -0.2652023434638977,
+                  -0.15493886172771454,
+                  -0.07559306919574738,
+                  -0.07053759694099426,
+                  -0.06409607827663422,
+                  -0.24576279520988464,
+                  -0.24275770783424377,
+                  -0.06451745331287384,
+                  -0.23923686146736145,
+                  -0.23613393306732178,
+                  -0.29814857244491577,
+                  -0.08641485869884491,
+                  -0.21503053605556488,
+                  -0.19059871137142181,
+                  -1.7280346155166626,
+                  -0.0077593158930540085,
+                  -0.16931907832622528,
+                  -0.00016895287262741476,
+                  -0.08118805289268494,
+                  0,
+                  -0.0759972482919693,
+                  -0.01838722825050354,
+                  -0.01838722825050354,
+                  -0.23506778478622437,
+                  -0.10453831404447556,
+                  -0.0735417827963829,
+                  -0.11455048620700836,
+                  -0.0735417827963829,
+                  -0.0665745735168457,
+                  0,
+                  0,
+                  0,
+                  -0.09398258477449417,
+                  -0.025396287441253662,
+                  -0.007684436161071062,
+                  -0.007684436161071062,
+                  -0.01838722825050354,
+                  -0.01838722825050354,
+                  -0.26750513911247253,
+                  -0.26750513911247253,
+                  -0.09398258477449417,
+                  0,
+                  0,
+                  -0.049889177083969116,
+                  -0.03541293367743492,
+                  -0.08305716514587402,
+                  0,
+                  0,
+                  0,
+                  -0.03793318569660187,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.05451086163520813,
+                  0,
+                  -0.07570499926805496,
+                  -0.07570499926805496,
+                  -0.018319349735975266,
+                  0,
+                  -0.03522849082946777,
+                  -0.030778096988797188,
+                  -0.05451086163520813,
+                  0.1467373647778017
                 ],
                 [
-                  0.9266830086708069,
-                  0.7433934807777405,
-                  2.6696081161499023,
-                  -2.0600388050079346,
-                  -2.0600388050079346,
-                  0.36048802733421326,
-                  0.6547951102256775,
-                  0.6547951102256775,
-                  -4.140427112579346,
-                  0.9266850352287292,
+                  0.7220420241355896,
+                  0.5195936560630798,
+                  2.94045352935791,
+                  -1.9867976903915405,
+                  -1.8506039381027222,
+                  0.33189061284065247,
+                  -0.16539335250854492,
+                  1.0751365423202515,
+                  -3.8355655670166016,
+                  0.7220401167869568,
                   0,
                   0,
-                  10.165633201599121,
-                  1.576770544052124,
-                  1.1861454248428345,
-                  1.576770544052124,
-                  -0.44097697734832764,
-                  -0.11602634936571121,
-                  -0.22361668944358826,
+                  10.450145721435547,
+                  1.2969166040420532,
+                  1.0618175268173218,
+                  1.8233544826507568,
+                  -1.1717549562454224,
+                  -0.07060712575912476,
+                  -0.16586972773075104,
                   -0.0599590428173542,
-                  -0.9538267254829407,
-                  -0.48566824197769165,
-                  -0.1963745653629303,
-                  -0.6092724204063416,
-                  -0.6412842273712158,
-                  -0.13531430065631866,
-                  -0.6485792398452759,
-                  -0.1626548022031784,
-                  -0.5552279949188232,
-                  -0.1588616818189621,
-                  -0.1579715460538864,
-                  -0.17095334827899933,
-                  -0.2504541575908661,
-                  -0.1189676821231842,
-                  -0.1189676821231842,
-                  -0.14341270923614502,
-                  -0.4698089361190796,
-                  -0.06399985402822495,
-                  -0.23883135616779327,
-                  -0.1035463735461235,
-                  -0.1035463735461235,
-                  -0.19502773880958557,
-                  -0.18411321938037872,
-                  -0.17310306429862976,
-                  -0.16158919036388397,
-                  -0.052564837038517,
-                  -0.04640810936689377,
-                  -0.04068780690431595,
-                  -0.09576785564422607,
-                  -0.0922599732875824,
-                  -0.2798922061920166,
-                  -0.07860104739665985,
-                  -0.07571663707494736,
-                  -0.05454804375767708,
-                  -0.07418288290500641,
-                  -0.21960532462612486
+                  -0.9648870825767517,
+                  -0.39478662610054016,
+                  -0.13854743540287018,
+                  -1.2263675928115845,
+                  -0.5627157688140869,
+                  -0.12716583907604218,
+                  -0.4897562563419342,
+                  -0.14868424832820892,
+                  -0.42101702094078064,
+                  -0.21059134602546692,
+                  -0.13688881695270538,
+                  -0.12403856217861176,
+                  -0.1962394267320633,
+                  -0.09538081288337708,
+                  -0.09538081288337708,
+                  -0.09703248739242554,
+                  -0.30037733912467957,
+                  -0.05613383278250694,
+                  -0.18521516025066376,
+                  -0.07055844366550446,
+                  -0.07055844366550446,
+                  -0.14607635140419006,
+                  -0.14318890869617462,
+                  -0.133999764919281,
+                  -0.13849498331546783,
+                  -0.034941017627716064,
+                  -0.030657010152935982,
+                  -0.026716746389865875,
+                  -0.05476190522313118,
+                  -0.052580807358026505,
+                  -0.09343456476926804,
+                  -0.04643010348081589,
+                  -0.044578175991773605,
+                  -0.061239611357450485,
+                  -0.06519594043493271,
+                  -0.09917516261339188,
+                  -0.07993858307600021,
+                  -1.1085487604141235,
+                  -0.10598905384540558,
+                  -0.03686051070690155,
+                  -0.08166307955980301,
+                  0,
+                  0,
+                  -0.04790922999382019,
+                  0,
+                  0,
+                  -0.288762629032135,
+                  -0.09154017269611359,
+                  -0.0009103548363782465,
+                  -0.29550766944885254,
+                  -0.0009103548363782465,
+                  -0.24827232956886292,
+                  0,
+                  0,
+                  0,
+                  -0.08192768692970276,
+                  0,
+                  -0.024987228214740753,
+                  -0.024987228214740753,
+                  0,
+                  0,
+                  -0.24008917808532715,
+                  -0.24008917808532715,
+                  -0.08192768692970276,
+                  0,
+                  0,
+                  -0.025902269408106804,
+                  -0.02961902506649494,
+                  -0.04853896424174309,
+                  0,
+                  0,
+                  0,
+                  -0.002364829182624817,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.34652017470330887
                 ],
                 [
-                  1.283364176750183,
-                  -1.751133918762207,
-                  -2.2170772552490234,
-                  -0.38802751898765564,
-                  -0.38802751898765564,
-                  -1.6797469854354858,
-                  -1.46176016330719,
-                  -1.46176016330719,
-                  4.574456691741943,
-                  -0.100859634578228,
+                  1.3617099523544312,
+                  -1.9687718152999878,
+                  -1.7486127614974976,
+                  -0.2424083799123764,
+                  -0.2424083799123764,
+                  -1.8263397216796875,
+                  -1.7653599977493286,
+                  -1.7386356592178345,
+                  5.464935302734375,
+                  -0.6834554672241211,
                   0,
                   0,
-                  -0.2862645387649536,
+                  -0.07005846500396729,
                   0,
-                  -0.04520181193947792,
+                  -0.037903960794210434,
+                  -0.030687589198350906,
+                  0.3452633023262024,
+                  1.3664610385894775,
+                  6.807692527770996,
+                  3.0733275413513184,
+                  14.279010772705078,
+                  -0.40398725867271423,
+                  -0.1515178382396698,
+                  -0.3205220401287079,
+                  -0.5302512049674988,
+                  -0.12251147627830505,
+                  -0.27742359042167664,
+                  -0.1139596626162529,
+                  -0.5462475419044495,
+                  -0.13627693057060242,
+                  -0.13666243851184845,
+                  -0.15485665202140808,
+                  -0.24340809881687164,
+                  -0.11085464060306549,
+                  -0.11085464060306549,
+                  -0.11167056858539581,
+                  -0.1476745903491974,
+                  -0.0935840830206871,
+                  -0.17163074016571045,
+                  -0.08755091577768326,
+                  -0.08755091577768326,
+                  -0.18686893582344055,
+                  -0.17577868700027466,
+                  -0.17299723625183105,
+                  -0.16072173416614532,
+                  -0.05232187733054161,
+                  -0.0465201735496521,
+                  -0.040953923016786575,
+                  -0.06695225834846497,
+                  -0.06425945460796356,
+                  -0.1449669450521469,
+                  -0.05620415508747101,
+                  -0.053942713886499405,
+                  -0.04832465574145317,
+                  -0.08297405391931534,
+                  -0.07142075151205063,
+                  -0.044577911496162415,
+                  -0.41595396399497986,
+                  -0.26359060406684875,
+                  -0.1791563332080841,
+                  -0.39924362301826477,
+                  -0.34182634949684143,
+                  -0.0025272523052990437,
+                  -0.000301594176562503,
+                  -0.014446504414081573,
+                  -0.01863037794828415,
+                  -0.0447985902428627,
+                  -0.00449958723038435,
+                  -0.013362708501517773,
+                  -0.05065701901912689,
+                  -0.013362708501517773,
+                  -0.030687589198350906,
+                  -0.0026625969912856817,
+                  -0.0026625969912856817,
+                  -0.003720674430951476,
+                  -0.022837068885564804,
+                  -0.01367325522005558,
                   0,
-                  1.0045020580291748,
-                  1.8801153898239136,
-                  6.04808235168457,
-                  4.167964935302734,
-                  14.284677505493164,
-                  -0.47128939628601074,
-                  -0.2050611525774002,
-                  -0.4018862247467041,
-                  -0.5839703679084778,
-                  -0.13325943052768707,
-                  -0.3104994297027588,
-                  -0.12248770147562027,
-                  -0.23302927613258362,
-                  -0.15890195965766907,
-                  -0.15460678935050964,
-                  -0.1687772274017334,
-                  -0.2852852940559387,
-                  -0.1498008817434311,
-                  -0.1498008817434311,
-                  -0.17438700795173645,
-                  -0.19202938675880432,
-                  -0.12476151436567307,
-                  -0.1799841970205307,
-                  -0.12237084656953812,
-                  -0.12237084656953812,
-                  -0.23445336520671844,
-                  -0.2217569202184677,
-                  -0.20942264795303345,
-                  -0.2087903916835785,
-                  -0.059836022555828094,
-                  -0.05287642776966095,
-                  -0.046356432139873505,
-                  -0.11705117672681808,
-                  -0.11267976462841034,
-                  -0.8642833232879639,
-                  -0.0881129577755928,
-                  -0.0848369151353836,
-                  -0.05164479464292526,
-                  -0.08542150259017944,
-                  -0.504780738606743
+                  0,
+                  -0.004228784237056971,
+                  -0.004228784237056971,
+                  -0.008410121314227581,
+                  -0.008410121314227581,
+                  -0.017682159319519997,
+                  -0.034367337822914124,
+                  -0.034367337822914124,
+                  -0.008324196562170982,
+                  0,
+                  -0.00043625387479551136,
+                  -0.025523344054818153,
+                  -0.025523344054818153,
+                  -0.08806891739368439,
+                  -0.11410676687955856,
+                  0,
+                  -0.008338561281561852,
+                  0,
+                  -2.0156431198120117,
+                  -0.5377190113067627,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.0601706134091058
                 ],
                 [
-                  -1.6785204410552979,
-                  -0.1443706452846527,
-                  -3.3054141998291016,
-                  -1.1138545274734497,
-                  -1.1138545274734497,
-                  -1.1301581859588623,
-                  -0.2257683128118515,
-                  -0.2257683128118515,
-                  -3.198444366455078,
-                  -1.431719422340393,
-                  -3.6540260314941406,
-                  -3.6540260314941406,
-                  -2.4730629920959473,
-                  -1.3994046449661255,
-                  -2.0760602951049805,
-                  -1.3994046449661255,
-                  -3.682485342025757,
-                  -0.01643422059714794,
-                  -2.080713987350464,
-                  -2.0478458404541016,
-                  -0.10058567672967911,
-                  7.005301475524902,
-                  7.056732654571533,
-                  4.670104026794434,
-                  4.643651962280273,
-                  3.309718132019043,
-                  -0.8732997179031372,
-                  2.496474266052246,
-                  6.741194725036621,
-                  7.415389537811279,
-                  -5.332440376281738,
-                  -1.804162621498108,
-                  -5.521030426025391,
-                  3.496607780456543,
-                  3.496607780456543,
-                  7.065791606903076,
-                  3.1586897373199463,
-                  3.8360278606414795,
-                  0.00042670866241678596,
-                  3.4614157676696777,
-                  3.4614157676696777,
-                  -7.291383266448975,
-                  -7.286571502685547,
-                  -7.281754016876221,
-                  -2.4011967182159424,
-                  -1.8496304750442505,
-                  -1.8474578857421875,
-                  -1.8439631462097168,
-                  -7.272113800048828,
-                  -7.26727819442749,
-                  -3.6496167182922363,
-                  -7.2600417137146,
-                  -7.255191326141357,
-                  -3.466643810272217,
-                  -1.043111801147461,
-                  7.377328455608935
+                  -2.0979855060577393,
+                  -0.12194646149873734,
+                  -2.2235300540924072,
+                  -0.8117896914482117,
+                  -0.8117896914482117,
+                  -3.364363431930542,
+                  -2.303567886352539,
+                  0,
+                  -2.082204818725586,
+                  -4.523223876953125,
+                  -2.987597942352295,
+                  -2.987597942352295,
+                  -1.5645344257354736,
+                  -2.306657075881958,
+                  -1.8856887817382812,
+                  -0.28801387548446655,
+                  -5.354977130889893,
+                  -0.19530530273914337,
+                  -1.956660270690918,
+                  -1.956660270690918,
+                  0,
+                  8.34096908569336,
+                  8.393656730651855,
+                  5.494758129119873,
+                  5.546785831451416,
+                  3.0595080852508545,
+                  -0.23107244074344635,
+                  2.901348114013672,
+                  6.040654182434082,
+                  8.04307746887207,
+                  -4.446933269500732,
+                  -1.283732533454895,
+                  -4.681127071380615,
+                  4.162124156951904,
+                  4.162124156951904,
+                  8.40053653717041,
+                  4.369023323059082,
+                  3.950199604034424,
+                  -0.022294338792562485,
+                  4.117896556854248,
+                  4.117896556854248,
+                  -5.9748005867004395,
+                  -5.969527244567871,
+                  -5.964247703552246,
+                  -2.172347068786621,
+                  -1.383021593093872,
+                  -1.3772225379943848,
+                  -1.3721377849578857,
+                  -5.954682350158691,
+                  -5.949421405792236,
+                  -0.7703022956848145,
+                  -5.944153785705566,
+                  -5.938879013061523,
+                  -3.692209005355835,
+                  -0.8985764980316162,
+                  -3.535658597946167,
+                  -1.6657551527023315,
+                  -5.310811996459961,
+                  -0.41722211241722107,
+                  -4.045459270477295,
+                  -0.20581021904945374,
+                  -1.9588203430175781,
+                  -0.6913726329803467,
+                  -0.020401667803525925,
+                  -1.1735970973968506,
+                  -1.3438435792922974,
+                  -2.7734010219573975,
+                  0,
+                  -1.4867374897003174,
+                  -3.0558862686157227,
+                  -1.4867374897003174,
+                  -1.0263327360153198,
+                  -0.1522827446460724,
+                  -0.1522827446460724,
+                  -0.31960010528564453,
+                  -1.8021410703659058,
+                  -0.9272131323814392,
+                  0,
+                  0,
+                  -0.9288955926895142,
+                  -0.9288955926895142,
+                  -3.0513932704925537,
+                  -3.0513932704925537,
+                  -1.460958480834961,
+                  -0.2291809320449829,
+                  -0.2291809320449829,
+                  -1.8553400039672852,
+                  -1.566753625869751,
+                  0,
+                  -0.11475718766450882,
+                  -0.11475718766450882,
+                  -2.0758910179138184,
+                  -2.457787275314331,
+                  0,
+                  -0.31092530488967896,
+                  0,
+                  0,
+                  -2.626884698867798,
+                  0,
+                  -2.342064619064331,
+                  -0.5867316722869873,
+                  -0.15339717268943787,
+                  0,
+                  -0.9560390710830688,
+                  -1.8255866765975952,
+                  -0.4673004448413849,
+                  6.0473491060448685
                 ],
                 [
-                  -2.5430047512054443,
-                  -3.2235124111175537,
-                  -3.296259880065918,
-                  -0.5720354914665222,
-                  -0.5720354914665222,
-                  0.00015307049034163356,
-                  -1.1992220878601074,
-                  -1.1992220878601074,
-                  -3.7179529666900635,
-                  -0.7551681399345398,
-                  -3.4499940872192383,
-                  -3.4499940872192383,
-                  -2.4859488010406494,
-                  -1.3057043552398682,
-                  -1.9516136646270752,
-                  -1.3057043552398682,
-                  3.02061128616333,
-                  -1.322322964668274,
-                  -2.3493311405181885,
-                  -0.9567936062812805,
-                  -0.0031643284019082785,
-                  -6.899986267089844,
-                  -6.899982452392578,
-                  -3.6764755249023438,
-                  -6.899979114532471,
-                  -1.4531617164611816,
-                  2.525256872177124,
-                  -0.5699364542961121,
-                  -7.4499192237854,
-                  -6.835747718811035,
-                  3.4734296798706055,
-                  1.2496927976608276,
-                  6.13599967956543,
-                  -3.449993133544922,
-                  -3.449993133544922,
-                  -6.899980068206787,
-                  -3.7570784091949463,
-                  -3.14290714263916,
-                  -1.0978100299835205,
-                  -3.4499924182891846,
-                  -3.4499924182891846,
-                  7.385682582855225,
-                  7.385683536529541,
-                  7.385684013366699,
-                  0.000048591777158435434,
-                  1.2497280836105347,
-                  1.2497291564941406,
-                  1.2497307062149048,
-                  7.385730266571045,
-                  7.385730743408203,
-                  4.365029811859131,
-                  7.385730266571045,
-                  7.385730743408203,
-                  4.610551357269287,
-                  0.00004936655386700295,
-                  6.899990263417849
+                  -1.6187071800231934,
+                  -2.8257322311401367,
+                  -1.297136664390564,
+                  -0.7876909375190735,
+                  -0.3892277181148529,
+                  -0.025991251692175865,
+                  -2.4668734073638916,
+                  -0.502898097038269,
+                  -2.0348587036132812,
+                  -2.3605539798736572,
+                  -2.8616843223571777,
+                  -2.8616843223571777,
+                  -1.425155520439148,
+                  -1.3699201345443726,
+                  -1.644081473350525,
+                  -1.4128212928771973,
+                  -2.2490644454956055,
+                  -1.5450761318206787,
+                  -1.8440685272216797,
+                  -1.8440685272216797,
+                  0,
+                  -5.72266149520874,
+                  -5.7224531173706055,
+                  -2.896115303039551,
+                  -5.721899032592773,
+                  -1.6041635274887085,
+                  2.7472240924835205,
+                  -0.2897213101387024,
+                  -7.476384162902832,
+                  -6.808223247528076,
+                  3.996274471282959,
+                  1.582252025604248,
+                  6.982926845550537,
+                  -2.861186981201172,
+                  -2.861186981201172,
+                  -5.721953868865967,
+                  -2.9982335567474365,
+                  -2.7240726947784424,
+                  -0.847236156463623,
+                  -2.861121416091919,
+                  -2.861121416091919,
+                  8.564896583557129,
+                  8.564894676208496,
+                  8.56489372253418,
+                  0.001160173793323338,
+                  1.5830031633377075,
+                  1.583006739616394,
+                  1.5830140113830566,
+                  8.565423011779785,
+                  8.565401077270508,
+                  10.82641887664795,
+                  8.565291404724121,
+                  8.565267562866211,
+                  4.647917747497559,
+                  0.0009773540077731013,
+                  -4.279475212097168,
+                  -2.3054537773132324,
+                  -4.613842010498047,
+                  -0.8084533214569092,
+                  -3.7158546447753906,
+                  -0.6303387880325317,
+                  -2.007521629333496,
+                  -1.1297968626022339,
+                  -0.2380996197462082,
+                  -1.127610445022583,
+                  -1.4650171995162964,
+                  -3.4430108070373535,
+                  -3.4428205490112305,
+                  -1.6381323337554932,
+                  -2.512759208679199,
+                  -1.6381323337554932,
+                  -1.5669275522232056,
+                  -0.22944526374340057,
+                  -0.22944526374340057,
+                  -0.4618370234966278,
+                  -1.9900174140930176,
+                  -1.4721055030822754,
+                  -1.7219644784927368,
+                  -1.7219644784927368,
+                  -0.49859756231307983,
+                  -0.49859756231307983,
+                  -1.2882091999053955,
+                  -1.2882091999053955,
+                  -1.3961267471313477,
+                  -1.17425537109375,
+                  -1.17425537109375,
+                  -0.957731306552887,
+                  -0.1347830891609192,
+                  -0.39910662174224854,
+                  -0.9112731218338013,
+                  -0.9112731218338013,
+                  -0.15476872026920319,
+                  -1.4439064264297485,
+                  -0.051159586757421494,
+                  -0.028402559459209442,
+                  -0.014575151726603508,
+                  -0.8382670879364014,
+                  -1.4939695596694946,
+                  -0.0011488195741549134,
+                  -1.569922685623169,
+                  -1.569922685623169,
+                  -0.7177366614341736,
+                  -1.7662066221237183,
+                  -2.1588523387908936,
+                  -0.5079990029335022,
+                  -1.0895930528640747,
+                  5.719734737840868
+                ],
+                [
+                  -3.526197671890259,
+                  3.8247780799865723,
+                  -7.48495626449585,
+                  0.9212554693222046,
+                  -0.25273701548576355,
+                  -2.5358376502990723,
+                  4.020712375640869,
+                  -0.10602790117263794,
+                  -3.685067892074585,
+                  9.91814136505127,
+                  0,
+                  0,
+                  -3.662282705307007,
+                  3.06056809425354,
+                  -0.06652966141700745,
+                  -0.9289287328720093,
+                  3.385101318359375,
+                  5.853559494018555,
+                  0,
+                  0,
+                  -0.3587160110473633,
+                  -0.6600156426429749,
+                  0,
+                  -1.1976892948150635,
+                  -1.0141681432724,
+                  -0.04015728831291199,
+                  -3.483905792236328,
+                  -0.3308703899383545,
+                  9.34269905090332,
+                  -2.654745578765869,
+                  -1.4739375114440918,
+                  -2.6198058128356934,
+                  -1.4586467742919922,
+                  0,
+                  0,
+                  0,
+                  -3.1233675479888916,
+                  0,
+                  -0.6600156426429749,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.8080174922943115,
+                  0,
+                  0,
+                  -0.3132382035255432,
+                  0,
+                  4.046158313751221,
+                  -1.9067566394805908,
+                  10.83786678314209,
+                  -0.12132401764392853,
+                  -10.93122386932373,
+                  -0.27552229166030884,
+                  -0.06247258931398392,
+                  5.812502384185791,
+                  1.7248691320419312,
+                  -0.6983698010444641,
+                  -0.8650676608085632,
+                  -2.7247776985168457,
+                  -0.8000938296318054,
+                  -0.3305305242538452,
+                  -1.1713584661483765,
+                  -0.3305305242538452,
+                  -0.7023106217384338,
+                  -0.08334948867559433,
+                  -0.08334948867559433,
+                  -0.27381861209869385,
+                  -1.876728892326355,
+                  -0.3815664052963257,
+                  -0.5856937170028687,
+                  -0.5856937170028687,
+                  -0.3607260286808014,
+                  -0.3607260286808014,
+                  -0.19347645342350006,
+                  -0.19347645342350006,
+                  -1.4690988063812256,
+                  -0.6447073221206665,
+                  -0.6447073221206665,
+                  -0.04850088432431221,
+                  -0.017469918355345726,
+                  -0.010925804264843464,
+                  -0.5620309710502625,
+                  -0.5620309710502625,
+                  -23.64266014099121,
+                  -14.508634567260742,
+                  -8.2791109085083,
+                  -10.729482650756836,
+                  0,
+                  -3.2109572887420654,
+                  -13.080829620361328,
+                  0,
+                  -2.2874526977539062,
+                  -0.0030771507881581783,
+                  -5.829084873199463,
+                  -5.822930812835693,
+                  0,
+                  -2.2812983989715576,
+                  0,
+                  -2.5372483995632273
+                ],
+                [
+                  -1.6233645677566528,
+                  -1.9141792058944702,
+                  -0.33078861236572266,
+                  -0.4761852025985718,
+                  0,
+                  4.242451190948486,
+                  -6.651116847991943,
+                  -0.33078861236572266,
+                  -0.6939260959625244,
+                  -1.9141792058944702,
+                  -0.29848212003707886,
+                  -0.29848212003707886,
+                  -0.9087680578231812,
+                  -0.7905048131942749,
+                  -0.7905048131942749,
+                  1.9770649671554565,
+                  4.3046674728393555,
+                  -1.6233645677566528,
+                  -0.4569956660270691,
+                  -0.06919653713703156,
+                  0,
+                  -0.5343511700630188,
+                  -0.37763047218322754,
+                  0,
+                  -0.3495115339756012,
+                  0,
+                  0,
+                  0,
+                  -0.7170581817626953,
+                  -1.454207181930542,
+                  0,
+                  -0.0028879365418106318,
+                  -0.3731440603733063,
+                  -0.256699800491333,
+                  -0.256699800491333,
+                  -0.36595314741134644,
+                  -0.2421964406967163,
+                  -0.2421964406967163,
+                  -0.12162403017282486,
+                  -0.2305838018655777,
+                  -0.2305838018655777,
+                  -0.3732251822948456,
+                  -0.3635210692882538,
+                  -0.35626786947250366,
+                  -0.2675572335720062,
+                  -0.1267651617527008,
+                  -0.1150561049580574,
+                  -0.10737673938274384,
+                  -0.3184628486633301,
+                  -0.3137606382369995,
+                  -8.63863754272461,
+                  -0.19979827105998993,
+                  -0.19800177216529846,
+                  0,
+                  -0.024794278666377068,
+                  1.5463194847106934,
+                  1.373712420463562,
+                  -1.661376714706421,
+                  -0.5690793991088867,
+                  -1.92311692237854,
+                  -0.5717728137969971,
+                  -0.26637887954711914,
+                  0,
+                  0,
+                  2.8730804920196533,
+                  4.308298587799072,
+                  5.640079498291016,
+                  5.646664142608643,
+                  4.1465559005737305,
+                  5.899311542510986,
+                  4.1465559005737305,
+                  2.0116536617279053,
+                  1.4352344274520874,
+                  1.4352344274520874,
+                  6.730515003204346,
+                  -0.4490192234516144,
+                  6.364412307739258,
+                  2.8228518962860107,
+                  2.8228518962860107,
+                  2.818103075027466,
+                  2.818103075027466,
+                  -4.987484455108643,
+                  -4.987484455108643,
+                  -7.1795268058776855,
+                  -1.3221386671066284,
+                  -1.3221386671066284,
+                  -0.8013824224472046,
+                  -1.0082387924194336,
+                  -1.093369722366333,
+                  -0.9682542085647583,
+                  -0.9682542085647583,
+                  -3.535351514816284,
+                  -1.6393736600875854,
+                  -0.22611872851848602,
+                  -0.24993477761745453,
+                  -0.08783866465091705,
+                  -1.223143219947815,
+                  -0.8282651901245117,
+                  -0.02499428205192089,
+                  -0.10743049532175064,
+                  -0.10743049532175064,
+                  -0.8111347556114197,
+                  -2.41607666015625,
+                  -1.9815138578414917,
+                  -0.5849123001098633,
+                  -0.08214310556650162,
+                  0.09309946563732394
+                ],
+                [
+                  -0.522741436958313,
+                  -0.8568008542060852,
+                  -0.9892038106918335,
+                  -0.36262568831443787,
+                  -0.026561159640550613,
+                  2.4069530963897705,
+                  0.3635254204273224,
+                  -0.9369114637374878,
+                  -0.5968753099441528,
+                  -0.5825924277305603,
+                  -0.16529330611228943,
+                  -0.16529330611228943,
+                  -0.5459241271018982,
+                  -0.07759875059127808,
+                  -0.09066484123468399,
+                  -0.12457350641489029,
+                  -2.775481700897217,
+                  -0.43676403164863586,
+                  -0.09050800651311874,
+                  -0.06302332878112793,
+                  0,
+                  -0.3286256194114685,
+                  -0.13868200778961182,
+                  -0.022342508658766747,
+                  -0.12263119220733643,
+                  -0.004763392731547356,
+                  -0.009095057845115662,
+                  -0.0031472870614379644,
+                  -0.9184247851371765,
+                  -0.7464767694473267,
+                  -0.18888448178768158,
+                  -0.37573105096817017,
+                  -0.3117050528526306,
+                  -0.11230190843343735,
+                  -0.11230190843343735,
+                  -0.13089150190353394,
+                  -0.10683523863554001,
+                  -0.10317904502153397,
+                  -0.061209626495838165,
+                  -0.09056922793388367,
+                  -0.09056922793388367,
+                  -0.18680569529533386,
+                  -0.1758575588464737,
+                  -0.1647322028875351,
+                  -0.1669483780860901,
+                  -0.03699207305908203,
+                  -0.031092144548892975,
+                  -0.026348112151026726,
+                  -0.0850057303905487,
+                  -0.08173844963312149,
+                  -0.622035562992096,
+                  -0.058576978743076324,
+                  -0.056318070739507675,
+                  0,
+                  -0.06381158530712128,
+                  -3.4044392108917236,
+                  -1.4010920524597168,
+                  -0.9766095876693726,
+                  0,
+                  -0.9961831569671631,
+                  -0.14994706213474274,
+                  -0.3251793384552002,
+                  0,
+                  0,
+                  -0.6421529054641724,
+                  -1.11978018283844,
+                  0.7869054675102234,
+                  -0.5814166069030762,
+                  -0.3935651481151581,
+                  0.5761362910270691,
+                  -0.3935651481151581,
+                  -0.14568638801574707,
+                  -0.3466448187828064,
+                  -0.3466448187828064,
+                  -2.0959792137145996,
+                  5.901913642883301,
+                  -0.0011878414079546928,
+                  -0.061890263110399246,
+                  -0.061890263110399246,
+                  0,
+                  0,
+                  5.727807521820068,
+                  5.727807521820068,
+                  7.997947692871094,
+                  1.2270147800445557,
+                  1.2270147800445557,
+                  0.7839123606681824,
+                  0.9929333329200745,
+                  1.409085988998413,
+                  7.498951435089111,
+                  7.498951435089111,
+                  -0.5473336577415466,
+                  -0.4950808584690094,
+                  -0.1741427332162857,
+                  -0.11520404368638992,
+                  -0.021152159199118614,
+                  -0.3287871778011322,
+                  -0.511417031288147,
+                  -0.004227046854794025,
+                  -0.2345886081457138,
+                  -0.1711396872997284,
+                  -0.1463528722524643,
+                  -0.28947076201438904,
+                  -0.25378161668777466,
+                  -0.10640399903059006,
+                  -0.08616924285888672,
+                  -0.3986605085469599
+                ],
+                [
+                  -0.9157143235206604,
+                  -1.0624034404754639,
+                  -1.6471091508865356,
+                  -0.1448649764060974,
+                  -0.12426683306694031,
+                  -0.3081349730491638,
+                  -3.352231979370117,
+                  -0.048828817903995514,
+                  -0.8927167057991028,
+                  0.2911514341831207,
+                  -0.18833185732364655,
+                  -0.18833185732364655,
+                  -0.5884655714035034,
+                  -0.05302325636148453,
+                  -0.29650768637657166,
+                  -0.030310848727822304,
+                  -0.663772463798523,
+                  -5.719499588012695,
+                  -0.02384035475552082,
+                  -0.02384035475552082,
+                  -0.21673361957073212,
+                  -0.37783777713775635,
+                  -0.22565096616744995,
+                  -0.5318178534507751,
+                  -0.5290558338165283,
+                  -0.1475210040807724,
+                  -0.44544991850852966,
+                  -0.1509067714214325,
+                  -3.0295724868774414,
+                  -0.42698246240615845,
+                  -0.2761746942996979,
+                  -0.42698246240615845,
+                  -0.28346192836761475,
+                  -0.14118795096874237,
+                  -0.14118795096874237,
+                  -0.188472718000412,
+                  -0.30228716135025024,
+                  -0.06165296584367752,
+                  -0.18653450906276703,
+                  -0.12127309292554855,
+                  -0.12127309292554855,
+                  -0.20366396009922028,
+                  -0.19757920503616333,
+                  -0.1917090266942978,
+                  -0.14630365371704102,
+                  -0.02986517921090126,
+                  -0.02383870631456375,
+                  -0.019585108384490013,
+                  -0.154127836227417,
+                  -0.14994899928569794,
+                  -0.5778465867042542,
+                  -0.1327669322490692,
+                  -0.12894855439662933,
+                  -0.03918524831533432,
+                  -0.0647272989153862,
+                  4.477794170379639,
+                  -5.303504943847656,
+                  -1.9788509607315063,
+                  -0.9976652264595032,
+                  11.18758487701416,
+                  4.650155544281006,
+                  5.774811267852783,
+                  -0.02027886174619198,
+                  0,
+                  -0.13272136449813843,
+                  -0.1953101009130478,
+                  -0.1529175043106079,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -5.527305603027344,
+                  -0.05833381786942482,
+                  -0.05833381786942482,
+                  -0.8626053929328918,
+                  -0.8626053929328918,
+                  -0.8626053929328918,
+                  0,
+                  0,
+                  -0.039498958736658096,
+                  -0.039498958736658096,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  17.838600158691406,
+                  13.469715118408203,
+                  -13.092916488647461,
+                  -13.133848190307617,
+                  -13.14607048034668,
+                  -0.6215225458145142,
+                  -2.219618558883667,
+                  -13.143658638000488,
+                  -2.7351529598236084,
+                  -2.342041492462158,
+                  -3.6425576210021973,
+                  -0.9739679098129272,
+                  -3.192307710647583,
+                  -3.189347267150879,
+                  0,
+                  -2.458407099577106
+                ],
+                [
+                  4.482401371002197,
+                  -1.3560861349105835,
+                  -1.451261281967163,
+                  -0.4247007668018341,
+                  -0.4247007668018341,
+                  -1.1808090209960938,
+                  -1.0014324188232422,
+                  -0.11555928736925125,
+                  -3.2039222717285156,
+                  -0.024584593251347542,
+                  -0.19188235700130463,
+                  -0.19188235700130463,
+                  -0.7762528657913208,
+                  -0.07920357584953308,
+                  -0.22250322997570038,
+                  -0.07920357584953308,
+                  2.283519744873047,
+                  0.05049114674329758,
+                  -2.8851070404052734,
+                  -0.011578915640711784,
+                  -0.003914649598300457,
+                  -0.28116223216056824,
+                  -0.12336114794015884,
+                  -0.1596253365278244,
+                  -0.2500338554382324,
+                  -0.04770687595009804,
+                  -0.17640939354896545,
+                  -0.04125326871871948,
+                  0.011180524714291096,
+                  -0.2669641673564911,
+                  -0.14032606780529022,
+                  -0.2669641673564911,
+                  -0.24342447519302368,
+                  -0.09385929256677628,
+                  -0.09385929256677628,
+                  -0.10990739613771439,
+                  -0.20788267254829407,
+                  -0.06865885108709335,
+                  -0.0657997727394104,
+                  -0.07354364544153214,
+                  -0.07354364544153214,
+                  -0.142140194773674,
+                  -0.14052878320217133,
+                  -0.12591470777988434,
+                  -0.14244751632213593,
+                  -0.03866809979081154,
+                  -0.03282039985060692,
+                  -0.028065236285328865,
+                  -0.06965351849794388,
+                  -0.0669722706079483,
+                  -1.3841286897659302,
+                  -0.032716263085603714,
+                  -0.03145909681916237,
+                  0,
+                  -0.02937636710703373,
+                  2.0445823669433594,
+                  -1.7656668424606323,
+                  -1.161099910736084,
+                  -0.5515477657318115,
+                  -1.1327861547470093,
+                  -0.19044029712677002,
+                  2.027914047241211,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.20381294190883636,
+                  -0.20365659892559052,
+                  0,
+                  0,
+                  0,
+                  -2.1303582191467285,
+                  0,
+                  0,
+                  -0.9417444467544556,
+                  -0.9417444467544556,
+                  -0.9417444467544556,
+                  -0.10192252695560455,
+                  -0.10192252695560455,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.34612011909484863,
+                  -0.34612011909484863,
+                  0,
+                  0,
+                  0,
+                  -0.34612011909484863,
+                  -0.34612011909484863,
+                  -0.8364325761795044,
+                  -2.2405009269714355,
+                  14.295912742614746,
+                  14.262999534606934,
+                  14.266048431396484,
+                  8.360376358032227,
+                  0.008944657631218433,
+                  14.264017105102539,
+                  -1.5970470905303955,
+                  -0.9695639610290527,
+                  -4.956948280334473,
+                  -1.0814977884292603,
+                  -1.7946884632110596,
+                  -1.5891143083572388,
+                  -0.1665852665901184,
+                  -0.8975471068165417
+                ],
+                [
+                  -2.5188770294189453,
+                  -2.5763731002807617,
+                  -1.0285465717315674,
+                  -0.4843214452266693,
+                  -0.1443300098180771,
+                  -1.1262307167053223,
+                  -1.1090011596679688,
+                  -0.26682063937187195,
+                  -0.9535192847251892,
+                  -1.6968023777008057,
+                  -0.3447980582714081,
+                  -0.3447980582714081,
+                  -0.5445973873138428,
+                  -0.2638477385044098,
+                  -0.5343209505081177,
+                  -3.029060125350952,
+                  -0.3685055077075958,
+                  -2.305795669555664,
+                  -0.4867924153804779,
+                  -0.133968323469162,
+                  0,
+                  -0.677911639213562,
+                  -0.34566590189933777,
+                  -0.2815510630607605,
+                  -0.44037681818008423,
+                  -0.048858221620321274,
+                  -0.27852296829223633,
+                  -0.038987740874290466,
+                  -1.6296298503875732,
+                  -0.5208455324172974,
+                  -0.22678011655807495,
+                  -0.5406523942947388,
+                  -0.6004869341850281,
+                  -0.23928062617778778,
+                  -0.23928062617778778,
+                  -0.28581327199935913,
+                  -0.4612148702144623,
+                  -0.18017791211605072,
+                  -0.14127525687217712,
+                  -0.21805720031261444,
+                  -0.21805720031261444,
+                  -0.40860119462013245,
+                  -0.3940461575984955,
+                  -0.3716065287590027,
+                  -0.339613676071167,
+                  -0.10027117282152176,
+                  -0.0862317681312561,
+                  -0.07437290996313095,
+                  -0.2042187601327896,
+                  -0.19674018025398254,
+                  -0.7772836685180664,
+                  -0.16225507855415344,
+                  -0.15627415478229523,
+                  0,
+                  -0.16768622398376465,
+                  -0.9307793378829956,
+                  -0.2690655291080475,
+                  -1.069048285484314,
+                  -0.025321703404188156,
+                  0.8592498302459717,
+                  0,
+                  -1.4031327962875366,
+                  -0.5010427236557007,
+                  -0.09090610593557358,
+                  -0.00020974170183762908,
+                  -0.00020974170183762908,
+                  -0.08404979854822159,
+                  -0.049886949360370636,
+                  -0.001942091272212565,
+                  -2.773444414138794,
+                  -0.001942091272212565,
+                  6.0984039306640625,
+                  0,
+                  0,
+                  -0.04402344673871994,
+                  -0.05502958968281746,
+                  -0.05502958968281746,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.0007226014859043062,
+                  -0.16871871054172516,
+                  -0.16871871054172516,
+                  -0.0007226014859043062,
+                  0,
+                  0,
+                  -0.16871871054172516,
+                  -0.16871871054172516,
+                  -0.0913969948887825,
+                  -0.08476514369249344,
+                  -0.5643690824508667,
+                  -0.9957058429718018,
+                  -0.46811988949775696,
+                  -1.6946606636047363,
+                  6.815855979919434,
+                  -0.41368114948272705,
+                  2.841263771057129,
+                  2.1846160888671875,
+                  8.32797908782959,
+                  7.324009418487549,
+                  7.25698184967041,
+                  7.255168437957764,
+                  2.3722164630889893,
+                  0.07208317930070804
                 ]
               ]
             }
@@ -1391,6 +3218,218 @@
       [
         "en",
         "hey chatbot"
+      ],
+      [
+        "en",
+        "show me the menu"
+      ],
+      [
+        "en",
+        "show menu"
+      ],
+      [
+        "en",
+        "can i see the menu"
+      ],
+      [
+        "en",
+        "what do you serve"
+      ],
+      [
+        "en",
+        "what food do you have"
+      ],
+      [
+        "en",
+        "what do you sell"
+      ],
+      [
+        "en",
+        "what's on the menu"
+      ],
+      [
+        "en",
+        "list your menu"
+      ],
+      [
+        "en",
+        "menu please"
+      ],
+      [
+        "en",
+        "display the menu"
+      ],
+      [
+        "en",
+        "tell me about burger"
+      ],
+      [
+        "en",
+        "what is burger"
+      ],
+      [
+        "en",
+        "what is cheeseburger"
+      ],
+      [
+        "en",
+        "describe fried chicken"
+      ],
+      [
+        "en",
+        "what comes with fries"
+      ],
+      [
+        "en",
+        "give me information about burger"
+      ],
+      [
+        "en",
+        "show details of coke"
+      ],
+      [
+        "en",
+        "what is ice cream"
+      ],
+      [
+        "en",
+        "tell me about chocolate cake"
+      ],
+      [
+        "en",
+        "how much is burger"
+      ],
+      [
+        "en",
+        "price of burger"
+      ],
+      [
+        "en",
+        "how much does burger cost"
+      ],
+      [
+        "en",
+        "what is the price of burger"
+      ],
+      [
+        "en",
+        "how much is a large burger"
+      ],
+      [
+        "en",
+        "how much is a small fries"
+      ],
+      [
+        "en",
+        "price of large coke"
+      ],
+      [
+        "en",
+        "how much is medium cheeseburger"
+      ],
+      [
+        "en",
+        "what does hot coffee cost"
+      ],
+      [
+        "en",
+        "show me drinks"
+      ],
+      [
+        "en",
+        "show desserts"
+      ],
+      [
+        "en",
+        "show food"
+      ],
+      [
+        "en",
+        "what drinks do you have"
+      ],
+      [
+        "en",
+        "what desserts do you sell"
+      ],
+      [
+        "en",
+        "list food"
+      ],
+      [
+        "en",
+        "show food menu"
+      ],
+      [
+        "en",
+        "show drink menu"
+      ],
+      [
+        "en",
+        "show dessert menu"
+      ],
+      [
+        "en",
+        "show halal food"
+      ],
+      [
+        "en",
+        "show vegan food"
+      ],
+      [
+        "en",
+        "show vegetarian food"
+      ],
+      [
+        "en",
+        "what are your bestsellers"
+      ],
+      [
+        "en",
+        "what are your bestseller items"
+      ],
+      [
+        "en",
+        "show spicy food"
+      ],
+      [
+        "en",
+        "what vegan items do you have"
+      ],
+      [
+        "en",
+        "list halal menu"
+      ],
+      [
+        "en",
+        "which foods contain gluten"
+      ],
+      [
+        "en",
+        "what has dairy"
+      ],
+      [
+        "en",
+        "which menu items have eggs"
+      ],
+      [
+        "en",
+        "show gluten items"
+      ],
+      [
+        "en",
+        "foods with dairy"
+      ],
+      [
+        "en",
+        "foods with eggs"
+      ],
+      [
+        "en",
+        "which items contain milk"
+      ],
+      [
+        "en",
+        "what menu has gluten"
       ]
     ]
   },
@@ -1400,7 +3439,224 @@
       "entityPreffix": "%",
       "entitySuffix": "%"
     },
-    "rules": {}
+    "rules": {
+      "en": {
+        "item": {
+          "name": "item",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "Burger",
+              "texts": [
+                "burger",
+                "hamburger",
+                "beef burger"
+              ]
+            },
+            {
+              "option": "Cheeseburger",
+              "texts": [
+                "cheeseburger",
+                "cheese burger",
+                "double cheese burger"
+              ]
+            },
+            {
+              "option": "Fried Chicken",
+              "texts": [
+                "fried chicken",
+                "crispy chicken",
+                "chicken"
+              ]
+            },
+            {
+              "option": "Fries",
+              "texts": [
+                "fries",
+                "french fries",
+                "chips"
+              ]
+            },
+            {
+              "option": "Chicken Nuggets",
+              "texts": [
+                "chicken nuggets",
+                "nuggets"
+              ]
+            },
+            {
+              "option": "Coke",
+              "texts": [
+                "coke",
+                "coca cola",
+                "cola"
+              ]
+            },
+            {
+              "option": "Iced Tea",
+              "texts": [
+                "iced tea",
+                "ice tea",
+                "lemon tea",
+                "tea"
+              ]
+            },
+            {
+              "option": "Hot Coffee",
+              "texts": [
+                "hot coffee",
+                "coffee",
+                "black coffee"
+              ]
+            },
+            {
+              "option": "Ice Cream",
+              "texts": [
+                "ice cream",
+                "vanilla ice cream"
+              ]
+            },
+            {
+              "option": "Chocolate Cake",
+              "texts": [
+                "chocolate cake",
+                "cake",
+                "choco cake"
+              ]
+            }
+          ]
+        },
+        "size": {
+          "name": "size",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "small",
+              "texts": [
+                "small",
+                "sm",
+                "s"
+              ]
+            },
+            {
+              "option": "medium",
+              "texts": [
+                "medium",
+                "med",
+                "m"
+              ]
+            },
+            {
+              "option": "large",
+              "texts": [
+                "large",
+                "big",
+                "lg",
+                "l"
+              ]
+            }
+          ]
+        },
+        "category": {
+          "name": "category",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "food",
+              "texts": [
+                "food",
+                "meal",
+                "meals"
+              ]
+            },
+            {
+              "option": "drink",
+              "texts": [
+                "drink",
+                "drinks",
+                "beverage",
+                "beverages"
+              ]
+            },
+            {
+              "option": "dessert",
+              "texts": [
+                "dessert",
+                "desserts",
+                "sweet",
+                "sweets"
+              ]
+            }
+          ]
+        },
+        "allergen": {
+          "name": "allergen",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "gluten",
+              "texts": [
+                "gluten"
+              ]
+            },
+            {
+              "option": "dairy",
+              "texts": [
+                "dairy",
+                "milk",
+                "cheese"
+              ]
+            },
+            {
+              "option": "eggs",
+              "texts": [
+                "egg",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        "tag": {
+          "name": "tag",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "halal",
+              "texts": [
+                "halal"
+              ]
+            },
+            {
+              "option": "vegan",
+              "texts": [
+                "vegan"
+              ]
+            },
+            {
+              "option": "vegetarian",
+              "texts": [
+                "vegetarian"
+              ]
+            },
+            {
+              "option": "spicy",
+              "texts": [
+                "spicy",
+                "hot"
+              ]
+            },
+            {
+              "option": "bestseller",
+              "texts": [
+                "bestseller",
+                "popular",
+                "best seller"
+              ]
+            }
+          ]
+        }
+      }
+    }
   },
   "nlgManager": {
     "settings": {
