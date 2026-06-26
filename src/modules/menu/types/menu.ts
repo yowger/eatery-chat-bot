@@ -10,11 +10,11 @@ export type MenuSize = {
 export type MenuItem = {
     id: string
     name: string
+    synonyms?: string[]
     description?: string
     price: number
 
     category: Category
-
     sizes?: MenuSize[]
 
     tags?: string[]
