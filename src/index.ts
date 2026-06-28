@@ -9,6 +9,12 @@ async function main() {
     const chatbot = await ChatbotService.create(intentProvider, EntityProvider)
 
     const testMessages = [
+        "tell me about hamburger",
+        "what is double cheese burger",
+        "describe crispy chicken",
+        "what comes with french fries",
+        "give me information about choco cake",
+
         // "hello",
         // "hi there",
         // "what is your name?",
@@ -24,26 +30,26 @@ async function main() {
         // "What do you sell?",
         // "Can I see the menu?",
 
-        "Show me your food",
-        "What drinks do you have?",
-        "Do you have desserts?",
-        "List your beverages",
+        // "Show me your food",
+        // "What drinks do you have?",
+        // "Do you have desserts?",
+        // "List your beverages",
 
-        "Tell me about the Burger",
-        "Do you have fries?",
-        "What is Cheeseburger?",
-        "Tell me about Hot Coffee",
+        // "Tell me about the Burger",
+        // "Do you have fries?",
+        // "What is Cheeseburger?",
+        // "Tell me about Hot Coffee",
 
-        "How much is Burger?",
-        "How much is a large Burger?",
-        "How much is a small Fries?",
-        "Price of Coke",
-        "How much does Ice Cream cost?",
+        // "How much is Burger?",
+        // "How much is a large Burger?",
+        // "How much is a small Fries?",
+        // "Price of Coke",
+        // "How much does Ice Cream cost?",
 
-        "Show halal food",
-        "What vegan items do you have?",
-        "What are your bestseller items?",
-        "Do you have spicy food?",
+        // "Show halal food",
+        // "What vegan items do you have?",
+        // "What are your bestseller items?",
+        // "Do you have spicy food?",
 
         // "Which foods contain gluten?",
         // "Do you have dairy-free food?",

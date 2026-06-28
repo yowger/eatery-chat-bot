@@ -1,3 +1,4 @@
+import { generateExamples } from "../../../utils/generateExamples"
 import { MenuItem } from "../types/menu"
 
 export const menuConfig: MenuItem[] = [
